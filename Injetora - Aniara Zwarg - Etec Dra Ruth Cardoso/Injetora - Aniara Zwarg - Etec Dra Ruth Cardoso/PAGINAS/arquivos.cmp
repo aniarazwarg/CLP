@@ -1,0 +1,9 @@
+18,5,long,numeroArquivo,0,999999,1,6,0,1
+8,7,message,statusOperacaoArquivos,0,7,60,13,0,,Operacoes com arquivos so' podem ser realizadas em manual,Arquivo ja' existe. <ENTER> p/ confirmar ou <ESC> p/ cancelar,Arquivo gravado com sucesso,Arquivo nao existe,<ENTER> p/ confirmar eliminacao arquivo ou <ESC> p/ cancelar,Arquivo eliminado,Arq. lido com sucesso
+1,10,arquivos,campoNomesArquivos
+47,5,int,operacaoArquivos,1,3,1,1,0,1
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+30,28,message,sinopticoAuto,0,27,17,12,15,                 ,Esperando START  ,Recua Extrator   ,Recua Unid.Inj.  ,Finaliza Dosagem ,Finaliza Desc. ,Recua Unid.Inj.  ,Fechament.molde,Av.Unid.Injecao  ,Intrusao         ,Preenchimento    ,Recalque         ,Recuo Unid.Inj.  ,Descompr.inicial ,Dosagem          ,Descompr.final   ,Recuo Unid.Inj.  ,Resfriamento     ,Abertura molde   ,Ciclo extracao   ,Final ciclo      ,Reciclo          ,  Pre Avanco     ,
+54,28,message,modoOperacao,0,4,12,12,2,   Manual   ,    Semi    ,    Auto       
+$$$
+

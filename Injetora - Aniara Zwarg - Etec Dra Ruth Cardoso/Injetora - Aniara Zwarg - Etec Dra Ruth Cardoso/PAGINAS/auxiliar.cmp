@@ -1,0 +1,17 @@
+46,8,bool,autoEsperandoInicioCiclo,1,0,0,1
+46,9,bool,autoFechamentoMolde,1,0,0,1
+46,10,bool,autoIntrusao,1,0,0,1
+46,11,bool,autoPreenchimento,1,0,0,1
+46,12,bool,autoRecalque,1,0,0,1
+46,13,bool,autoDosagem,1,0,0,1
+46,14,bool,autoResfriamento,1,0,0,1
+46,15,bool,autoAberturaMolde,1,0,0,1
+46,17,bool,autoEsperandoInicioCiclo,1,0,0,1
+46,17,bool,autoPreAvancamento,1,0,0,1
+46,18,bool,autoFimCiclo,1,0,0,1
+65,9,bool,auxFechamentoMoldePreAvanco,1,0,0,1
+65,10,bool,auxAberturaMoldePreAvanco,1,0,0,1
+14,16,int,numeroPreAvancamentosRealizados,0,99,1,2,0,1
+46,16,bool,autoAvan‡oExtratorMoldeMolde,1,0,0,1
+$$$
+

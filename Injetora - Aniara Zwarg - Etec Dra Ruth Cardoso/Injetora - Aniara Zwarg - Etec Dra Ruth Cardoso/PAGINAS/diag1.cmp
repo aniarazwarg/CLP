@@ -1,0 +1,28 @@
+1,12,bool,saidaDosagem,0,0,0,1
+1,8,bool,saidaLigaMotor,0,0,0,1
+21,13,bool,sensorFimDosagem,1,0,0,1
+21,12,bool,sensorMaquinaTravada,1,0,0,1
+21,9,bool,sensorMoldeAberto,1,0,0,1
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+1,13,bool,saidaAberturaMolde,0,0,0,1
+1,9,bool,saidaFechamentoMolde,0,0,0,1
+21,10,bool,sensorAmortecimentoAbertura,1,0,0,1
+21,11,bool,sensorAmortecimentoFechamento,1,0,0,1
+21,14,bool,sensorPassagemParaRecalque,1,0,0,1
+1,10,bool,saidaInjecao,0,0,0,1
+73,7,int,vazaoProporcional,0,4095,0,4,0,0
+66,7,int,vazaoPropLinearizada,0,999,0,3,0,0
+59,7,int,vazaoPropProgramada,0,999,0,3,0,0
+30,28,message,sinopticoAuto,0,27,17,12,15,                 ,Esperando START  ,Recua Extrator   ,Recua Unid.Inj.  ,Finaliza Dosagem ,Finaliza Desc. ,Recua Unid.Inj.  ,Fechament.molde,Av.Unid.Injecao  ,Intrusao         ,Preenchimento    ,Recalque         ,Recuo Unid.Inj.  ,Descompr.inicial ,Dosagem          ,Descompr.final   ,Recuo Unid.Inj.  ,Resfriamento     ,Abertura molde   ,Ciclo extracao   ,Final ciclo      ,Reciclo          ,  Pre Avanco     ,
+21,8,bool,sensorProtetorDiantFechado,1,0,0,1
+74,19,bool,habSupervisaoMovimentos,1,2,n,s
+70,20,int,tempoSupervFechamentoMolde,0,99999,1,5,2,2
+70,21,int,tempoSupervAberturaMolde,0,99999,1,5,2,2
+70,23,int,tempoSupervDosagem,0,99999,1,5,2,2
+54,28,message,modoOperacao,0,4,12,12,2,   Manual   ,    Semi    ,    Auto       
+1,14,bool,saidaAvancoExtratorMolde1,0,0,0,1
+1,15,bool,saidaRecuoExtratorMolde2,0,0,0,1
+21,15,bool,sensorRecuoExtratorMolde1,1,0,0,1
+70,22,int,tempoSuperAvancoExtratorMolde,0,99999,1,5,2,2
+$$$
+317,confint

@@ -1,0 +1,24 @@
+!define BLANK ""
+"C:\programasCLPbranqs\Injetora - Aniara Zwarg - Etec Dra Ruth Cardoso\CODBA&
+SE.obj" : "C:\programasCLPbranqs\Injetora - Aniara Zwarg - Etec Dra Ruth Car&
+doso\CODBASE.CPP" .AUTODEPEND
+ @C:
+ cd C:\programasCLPbranqs\Injetora - Aniara Zwarg - Etec Dra Ruth Cardoso
+ *wpp386 CODBASE.CPP -i=C:\WATCOM\h -w4 -e25 -zq -od -d2 -6r -bt=dos -mf -xs&
+ -xr
+
+"C:\programasCLPbranqs\Injetora - Aniara Zwarg - Etec Dra Ruth Cardoso\progC&
+LP.exe" : "C:\programasCLPbranqs\Injetora - Aniara Zwarg - Etec Dra Ruth Car&
+doso\DECLARA.CLP" "C:\programasCLPbranqs\Injetora - Aniara Zwarg - Etec Dra &
+Ruth Cardoso\ENTRADA.CLP" "C:\programasCLPbranqs\Injetora - Aniara Zwarg - E&
+tec Dra Ruth Cardoso\LOGICA.CLP" "C:\programasCLPbranqs\Injetora - Aniara Zw&
+arg - Etec Dra Ruth Cardoso\SAIDA.CLP" "C:\programasCLPbranqs\Injetora - Ani&
+ara Zwarg - Etec Dra Ruth Cardoso\CODBASE.obj" "C:\programasCLPbranqs\Injeto&
+ra - Aniara Zwarg - Etec Dra Ruth Cardoso\bcv03r85.lib" .AUTODEPEND
+ @C:
+ cd C:\programasCLPbranqs\Injetora - Aniara Zwarg - Etec Dra Ruth Cardoso
+ @%write progCLP.lk1 FIL CODBASE.obj
+ @%append progCLP.lk1 LIBR bcv03r85.lib
+ *wlink name progCLP d all SYS causeway op m op maxe=25 op q op symf @progCL&
+P.lk1
+

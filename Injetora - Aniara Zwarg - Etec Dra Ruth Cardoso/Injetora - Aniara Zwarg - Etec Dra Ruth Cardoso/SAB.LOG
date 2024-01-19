@@ -1,0 +1,31 @@
+03/06/2023
+11:11:52 Ligou CLP
+11:11:53 Ativou Alarme Motor desligado
+11:25:39 Ativou Alarme Protetor dianteiro aberto
+11:25:39 Ativou Alarme Molde nao fechado
+11:25:39 Desativou Alarme Protetor dianteiro aberto
+11:25:39 Desativou Alarme Molde nao fechado
+11:26:59 Desativou Alarme Motor desligado
+11:28:10 sensorProtetorDiantFechado=1 (ant=0)
+11:29:22 sensorMaquinaTravada=1 (ant=0)
+11:30:06 sensorPassagemParaRecalque=1 (ant=0)
+11:31:02 Ativou Alarme Motor desligado
+11:32:11 sensorMoldeAberto=1 (ant=0)
+11:32:11 Ativou Alarme Problema nos fins de curso do Molde
+11:32:14 sensorProtetorDiantFechado=0 (ant=1)
+11:32:23 sensorFimDosagem=1 (ant=0)
+11:32:26 sensorMaquinaTravada=0 (ant=1)
+11:32:26 Desativou Alarme Problema nos fins de curso do Molde
+11:32:28 sensorPassagemParaRecalque=0 (ant=1)
+11:32:32 sensorProtetorDiantFechado=1 (ant=0)
+11:34:11 Desativou Alarme Motor desligado
+11:34:46 sensorFimDosagem=0 (ant=1)
+11:34:46 Ativou Alarme Completar curso de dosagem manualmente
+11:34:51 sensorMaquinaTravada=1 (ant=0)
+11:34:51 Ativou Alarme Problema nos fins de curso do Molde
+11:34:51 Ativou Alarme Motor desligado
+11:35:06 sensorMoldeAberto=0 (ant=1)
+11:38:35 sensorMaquinaTravada=0 (ant=1)
+11:38:52 sensorMaquinaTravada=1 (ant=0)
+11:44:11 Ligou CLP
+11:44:11 Ativou Alarme Motor desligado

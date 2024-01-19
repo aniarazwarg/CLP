@@ -1,0 +1,197 @@
+16/03/2023
+15:31:19 Ligou CLP
+15:31:22 Ativou Alarme Motor desligado
+15:33:36 Ligou CLP
+15:33:36 Ativou Alarme Motor desligado
+15:37:17 Ligou CLP
+15:37:17 Ativou Alarme Motor desligado
+15:37:31 Ligou CLP
+15:37:31 Ativou Alarme Motor desligado
+15:38:38 Desativou Alarme Motor desligado
+15:38:53 senhaCorrente=****
+15:39:40 sensorProtetorDiantFechado=1 (ant=0)
+15:39:40 Ativou Alarme Completar curso de dosagem manualmente
+15:39:43 sensorFimDosagem=1 (ant=0)
+15:40:03 Desativou Alarme Completar curso de dosagem manualmente
+15:40:11 habSupervisaoMovimentos=1 (ant=0)
+15:40:13 tempoSupervFechamentoMolde=300 (ant=0)
+15:40:22 Ativou Alarme Fechamento do Molde nao completado
+15:43:58 Ligou CLP
+15:43:58 Ativou Alarme Motor desligado
+15:44:22 Desativou Alarme Motor desligado
+15:44:26 sensorProtetorDiantFechado=1 (ant=0)
+15:44:28 sensorFimDosagem=1 (ant=0)
+15:44:31 Ativou Alarme Abertura do molde nao completada
+15:44:31 Ativou Alarme Motor desligado
+15:44:48 senhaCorrente=****
+15:44:51 tempoSupervAberturaMolde=300 (ant=0)
+15:44:53 tempoSupervDosagem=300 (ant=0)
+15:44:55 Desativou Alarme Abertura do molde nao completada
+15:45:09 Desativou Alarme Motor desligado
+15:45:19 Ativou Alarme Fechamento do Molde nao completado
+15:45:19 Ativou Alarme Motor desligado
+15:45:37 Desativou Alarme Fechamento do Molde nao completado
+15:45:38 Desativou Alarme Motor desligado
+16:20:52 Ligou CLP
+16:20:53 Ativou Alarme Motor desligado
+16:20:59 senhaCorrente=****
+16:21:03 Desativou Alarme Motor desligado
+16:21:07 sensorProtetorDiantFechado=1 (ant=0)
+16:21:08 sensorMoldeAberto=1 (ant=0)
+16:21:10 sensorFimDosagem=1 (ant=0)
+16:21:18 sensorMoldeAberto=0 (ant=1)
+16:21:18 Ativou Alarme Fechamento do Molde nao completado
+16:21:18 Ativou Alarme Motor desligado
+16:21:22 habSupervisaoMovimentos=0 (ant=1)
+16:21:22 Desativou Alarme Fechamento do Molde nao completado
+16:21:28 Desativou Alarme Motor desligado
+16:21:31 sensorMoldeAberto=1 (ant=0)
+16:21:40 sensorMoldeAberto=0 (ant=1)
+16:21:41 sensorAmortecimentoAbertura=1 (ant=0)
+16:21:42 sensorAmortecimentoFechamento=1 (ant=0)
+16:21:45 sensorProtecaoMolde=1 (ant=0)
+16:21:48 sensorMaquinaTravada=1 (ant=0)
+16:21:52 sensorFimDosagem=0 (ant=1)
+16:21:58 sensorPassagemParaRecalque=1 (ant=0)
+16:22:02 sensorPassagemParaRecalque=0 (ant=1)
+16:22:04 sensorFimDosagem=1 (ant=0)
+16:22:06 sensorMaquinaTravada=0 (ant=1)
+16:22:08 sensorProtecaoMolde=0 (ant=1)
+16:22:09 sensorAmortecimentoFechamento=0 (ant=1)
+16:22:19 sensorAmortecimentoAbertura=0 (ant=1)
+16:22:30 sensorAmortecimentoAbertura=1 (ant=0)
+16:22:38 sensorMoldeAberto=1 (ant=0)
+16:22:43 sensorMoldeAberto=0 (ant=1)
+16:22:45 sensorAmortecimentoAbertura=0 (ant=1)
+16:22:46 sensorAmortecimentoFechamento=1 (ant=0)
+16:22:49 sensorProtecaoMolde=1 (ant=0)
+16:22:51 sensorMaquinaTravada=1 (ant=0)
+16:22:54 sensorFimDosagem=0 (ant=1)
+16:22:56 sensorPassagemParaRecalque=1 (ant=0)
+16:23:00 sensorPassagemParaRecalque=0 (ant=1)
+16:23:01 sensorFimDosagem=1 (ant=0)
+16:23:04 sensorMaquinaTravada=0 (ant=1)
+16:23:05 sensorProtecaoMolde=0 (ant=1)
+16:23:06 sensorAmortecimentoFechamento=0 (ant=1)
+16:23:07 sensorAmortecimentoAbertura=1 (ant=0)
+16:23:08 sensorMoldeAberto=1 (ant=0)
+16:32:34 Ligou CLP
+16:32:35 Ativou Alarme Motor desligado
+16:35:43 senhaCorrente=****
+16:35:52 Desativou Alarme Motor desligado
+16:35:58 sensorProtetorDiantFechado=1 (ant=0)
+16:35:59 sensorMoldeAberto=1 (ant=0)
+16:36:02 sensorFimDosagem=1 (ant=0)
+16:36:09 sensorMoldeAberto=0 (ant=1)
+16:36:10 sensorAmortecimentoAbertura=1 (ant=0)
+16:36:10 sensorAmortecimentoFechamento=1 (ant=0)
+16:36:11 sensorProtecaoMolde=1 (ant=0)
+16:36:12 sensorMaquinaTravada=1 (ant=0)
+16:36:20 sensorFimDosagem=0 (ant=1)
+16:36:22 sensorPassagemParaRecalque=1 (ant=0)
+16:36:27 sensorPassagemParaRecalque=0 (ant=1)
+16:36:27 sensorFimDosagem=1 (ant=0)
+16:36:29 sensorMaquinaTravada=0 (ant=1)
+16:36:30 sensorProtecaoMolde=0 (ant=1)
+16:36:32 sensorAmortecimentoFechamento=0 (ant=1)
+16:36:33 sensorAmortecimentoAbertura=0 (ant=1)
+16:36:36 sensorMoldeAberto=1 (ant=0)
+16:37:19 sensorMoldeAberto=0 (ant=1)
+16:37:21 sensorAmortecimentoAbertura=1 (ant=0)
+16:37:27 sensorAmortecimentoAbertura=0 (ant=1)
+16:37:30 sensorAmortecimentoFechamento=1 (ant=0)
+16:37:31 sensorProtecaoMolde=1 (ant=0)
+16:37:34 sensorMaquinaTravada=1 (ant=0)
+16:37:37 sensorFimDosagem=0 (ant=1)
+16:37:39 sensorPassagemParaRecalque=1 (ant=0)
+16:37:43 sensorPassagemParaRecalque=0 (ant=1)
+16:37:44 sensorFimDosagem=1 (ant=0)
+16:37:45 sensorMaquinaTravada=0 (ant=1)
+16:37:45 sensorProtecaoMolde=0 (ant=1)
+16:37:46 sensorAmortecimentoFechamento=0 (ant=1)
+16:37:49 sensorAmortecimentoAbertura=1 (ant=0)
+16:37:50 sensorMoldeAberto=1 (ant=0)
+17:19:29 Ligou CLP
+17:19:29 Ativou Alarme Motor desligado
+17:19:33 senhaCorrente=****
+17:19:35 Desativou Alarme Motor desligado
+17:19:52 Ativou Alarme Completar curso de dosagem manualmente
+17:19:52 Ativou Alarme Protetor dianteiro aberto
+17:20:01 Desativou Alarme Completar curso de dosagem manualmente
+17:20:01 Desativou Alarme Protetor dianteiro aberto
+17:20:04 Ativou Alarme Completar curso de dosagem manualmente
+17:20:04 Ativou Alarme Protetor dianteiro aberto
+17:20:12 Desativou Alarme Completar curso de dosagem manualmente
+17:20:12 Desativou Alarme Protetor dianteiro aberto
+17:20:20 sensorProtetorDiantFechado=1 (ant=0)
+17:20:21 sensorMoldeAberto=1 (ant=0)
+17:20:22 sensorAmortecimentoAbertura=1 (ant=0)
+17:20:23 sensorFimDosagem=1 (ant=0)
+17:21:00 sensorMoldeAberto=0 (ant=1)
+17:21:01 sensorAmortecimentoAbertura=0 (ant=1)
+17:21:03 sensorAmortecimentoFechamento=1 (ant=0)
+17:21:05 sensorProtecaoMolde=1 (ant=0)
+17:21:07 sensorMaquinaTravada=1 (ant=0)
+17:21:13 sensorFimDosagem=0 (ant=1)
+17:21:15 sensorPassagemParaRecalque=1 (ant=0)
+17:21:21 sensorPassagemParaRecalque=0 (ant=1)
+17:21:23 sensorFimDosagem=1 (ant=0)
+17:21:26 sensorMaquinaTravada=0 (ant=1)
+17:21:30 sensorProtecaoMolde=0 (ant=1)
+17:21:32 sensorAmortecimentoFechamento=0 (ant=1)
+17:21:39 sensorAmortecimentoFechamento=1 (ant=0)
+17:21:41 sensorAmortecimentoFechamento=0 (ant=1)
+17:21:41 sensorAmortecimentoAbertura=1 (ant=0)
+17:21:47 sensorMoldeAberto=1 (ant=0)
+17:22:56 sensorMoldeAberto=0 (ant=1)
+17:22:57 sensorAmortecimentoAbertura=0 (ant=1)
+17:22:58 sensorAmortecimentoFechamento=1 (ant=0)
+17:22:59 sensorProtecaoMolde=1 (ant=0)
+17:23:00 sensorMaquinaTravada=1 (ant=0)
+17:23:01 sensorFimDosagem=0 (ant=1)
+17:23:04 sensorPassagemParaRecalque=1 (ant=0)
+17:23:08 sensorPassagemParaRecalque=0 (ant=1)
+17:23:08 sensorFimDosagem=1 (ant=0)
+17:23:09 sensorMaquinaTravada=0 (ant=1)
+17:23:10 sensorProtecaoMolde=0 (ant=1)
+17:23:10 sensorAmortecimentoFechamento=0 (ant=1)
+17:23:11 sensorAmortecimentoAbertura=1 (ant=0)
+17:23:12 sensorMoldeAberto=1 (ant=0)
+17:29:26 Ligou CLP
+17:29:26 Ativou Alarme Motor desligado
+17:29:29 Desativou Alarme Motor desligado
+17:29:37 senhaCorrente=****
+17:29:43 sensorProtetorDiantFechado=1 (ant=0)
+17:29:45 sensorMoldeAberto=1 (ant=0)
+17:29:46 sensorAmortecimentoAbertura=1 (ant=0)
+17:29:49 sensorFimDosagem=1 (ant=0)
+17:29:57 sensorMoldeAberto=0 (ant=1)
+17:29:58 sensorAmortecimentoAbertura=0 (ant=1)
+17:29:59 sensorAmortecimentoFechamento=1 (ant=0)
+17:29:59 sensorProtecaoMolde=1 (ant=0)
+17:30:00 sensorMaquinaTravada=1 (ant=0)
+17:30:03 sensorFimDosagem=0 (ant=1)
+17:30:04 sensorPassagemParaRecalque=1 (ant=0)
+17:30:08 sensorPassagemParaRecalque=0 (ant=1)
+17:30:08 sensorFimDosagem=1 (ant=0)
+17:30:09 sensorMaquinaTravada=0 (ant=1)
+17:30:10 sensorProtecaoMolde=0 (ant=1)
+17:30:10 sensorAmortecimentoFechamento=0 (ant=1)
+17:30:11 sensorAmortecimentoAbertura=1 (ant=0)
+17:30:12 sensorMoldeAberto=1 (ant=0)
+17:30:44 sensorMoldeAberto=0 (ant=1)
+17:30:45 sensorAmortecimentoAbertura=0 (ant=1)
+17:30:46 sensorAmortecimentoFechamento=1 (ant=0)
+17:30:46 sensorProtecaoMolde=1 (ant=0)
+17:30:47 sensorMaquinaTravada=1 (ant=0)
+17:30:48 sensorFimDosagem=0 (ant=1)
+17:30:49 sensorPassagemParaRecalque=1 (ant=0)
+17:30:52 sensorPassagemParaRecalque=0 (ant=1)
+17:30:53 sensorFimDosagem=1 (ant=0)
+17:30:54 sensorMaquinaTravada=0 (ant=1)
+17:30:56 sensorProtecaoMolde=0 (ant=1)
+17:30:57 sensorAmortecimentoFechamento=0 (ant=1)
+17:30:58 sensorAmortecimentoAbertura=1 (ant=0)
+17:30:59 sensorMoldeAberto=1 (ant=0)
+17:32:20 Ligou CLP
+17:32:20 Ativou Alarme Motor desligado

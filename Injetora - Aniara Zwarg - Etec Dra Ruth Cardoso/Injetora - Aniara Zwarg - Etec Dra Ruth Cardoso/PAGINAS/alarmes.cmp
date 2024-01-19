@@ -1,0 +1,6 @@
+4,5,alarme,campoAlarme,15,0
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+30,28,message,sinopticoAuto,0,27,17,12,15,                 ,Esperando START  ,Recua Extrator   ,Recua Unid.Inj.  ,Finaliza Dosagem ,Finaliza Desc. ,Recua Unid.Inj.  ,Fechament.molde,Av.Unid.Injecao  ,Intrusao         ,Preenchimento    ,Recalque         ,Recuo Unid.Inj.  ,Descompr.inicial ,Dosagem          ,Descompr.final   ,Recuo Unid.Inj.  ,Resfriamento     ,Abertura molde   ,Ciclo extracao   ,Final ciclo      ,Reciclo          ,  Pre Avanco     ,
+54,28,message,modoOperacao,0,4,12,12,2,   Manual   ,    Semi    ,    Auto       
+$$$
+
