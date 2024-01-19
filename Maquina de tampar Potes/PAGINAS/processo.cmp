@@ -1,0 +1,15 @@
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+19,7,bool,recuaCilindro,0,0,0,1
+19,9,bool,avancaCilindro,0,0,0,1
+40,8,bool,ssCilindroRecuado,0,0,0,1
+40,10,bool,ssCilindroAvancado,0,0,0,1
+39,21,bool,ssPoteAbaixoCilindro,0,0,0,1
+18,16,bool,botaoInicio,0,0,0,1
+18,20,bool,ligaEsteira,0,0,0,1
+61,14,bool,autoEsperandoStart,0,0,0,1
+61,19,bool,autoAvancaCilindro,0,0,0,1
+61,17,bool,autoLigaEsteira,0,0,0,1
+61,16,bool,autoRecuaCilindro,0,0,0,1
+61,20,bool,autoFimCiclo,0,0,0,1
+$$$
+316,arquivos
