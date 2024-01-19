@@ -1,0 +1,3 @@
+Montar um programa de controle da campainha de uma casa automatizada. A 
+campainha deve tocar sempre que o interruptor for pressionado. Os estados dos sinais 
+da campainha e do interruptor devem ser apresentados na IHM.
