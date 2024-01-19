@@ -1,0 +1,11 @@
+72,7,int,duracaoAvancoCilindro,0,9999,1,5,2,0
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+54,28,message,modoOperacao,0,1,12,12,2,   Manual, Automatico
+16,7,bool,saidaRecuaCilindro,0,0,0,1
+16,10,bool,saidaAvancaCilindro,0,0,0,1
+40,7,bool,entradaCilindroRecuado,0,0,0,1
+40,22,bool,entradaPoteEmbaixoDoCilindro,0,0,0,1
+15,20,bool,saidaLigaMotorEsteira,0,0,0,1
+2,15,message,sinoptico,0,5,19,15,2,                   ,Esperando Start    ,Recua cilindro     ,Esperando novo pote,Avanca cilindro    ,Fim ciclo
+$$$
+316,arquivos

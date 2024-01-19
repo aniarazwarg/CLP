@@ -1,0 +1,6 @@
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+19,5,bool,entradaSensorPresenca,0,0,0,1
+19,8,bool,saidaLampada,0,0,0,1
+16,12,int,tempoAcionamentoLampada,0,9999,1,5,2,0
+$$$
+316,arquivos

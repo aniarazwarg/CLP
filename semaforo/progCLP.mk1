@@ -1,0 +1,20 @@
+!define BLANK ""
+C:\programasCLPbranqs\semaforo\CODBASE.obj : C:\programasCLPbranqs\semaforo\&
+CODBASE.CPP .AUTODEPEND
+ @C:
+ cd C:\programasCLPbranqs\semaforo
+ *wpp386 CODBASE.CPP -i=C:\WATCOM\h -w4 -e25 -zq -od -d2 -6r -bt=dos -mf -xs&
+ -xr
+
+C:\programasCLPbranqs\semaforo\progCLP.exe : C:\programasCLPbranqs\semaforo\&
+DECLARA.CLP C:\programasCLPbranqs\semaforo\ENTRADA.CLP C:\programasCLPbranqs&
+\semaforo\LOGICA.CLP C:\programasCLPbranqs\semaforo\SAIDA.CLP C:\programasCL&
+Pbranqs\semaforo\CODBASE.obj C:\programasCLPbranqs\semaforo\bcv03r36.lib .AU&
+TODEPEND
+ @C:
+ cd C:\programasCLPbranqs\semaforo
+ @%write progCLP.lk1 FIL CODBASE.obj
+ @%append progCLP.lk1 LIBR bcv03r36.lib
+ *wlink name progCLP d all SYS causeway op m op maxe=25 op q op symf @progCL&
+P.lk1
+

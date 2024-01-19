@@ -1,0 +1,4 @@
+DECLARA.CLP(25): Error! E498: col(26) syntax error before 'saidaBombaDagua'; probable cause: incorrectly spelled type name
+DECLARA.CLP(25): Note! N393: col(26) included from CODBASE.CPP(13)
+ENTRADA.CLP(7): Error! E029: col(42) symbol 'programa' has not been declared
+LOGICA.CLP(26): Error! E029: col(21) symbol 'saidaBombaDagua' has not been declared

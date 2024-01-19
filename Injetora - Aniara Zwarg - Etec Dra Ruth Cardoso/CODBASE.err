@@ -1,0 +1,4 @@
+LOGICA.CLP(208): Error! E029: col(54) symbol 'dsp_tempoAvancoExtratorMolde' has not been declared
+LOGICA.CLP(208): Note! N393: col(54) included from CODBASE.CPP(45)
+LOGICA.CLP(213): Error! E029: col(54) symbol 'fim_tempoAvancoExtratorMolde' has not been declared
+LOGICA.CLP(221): Error! E029: col(50) symbol 'fim_avancoExtratorMolde' has not been declared

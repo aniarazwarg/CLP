@@ -1,0 +1,23 @@
+34,11,bool,zeraContadorParcial,1,2,n,s
+30,6,int,retReciclo,0,99999,1,5,2,1
+29,7,int,tempoMaximoCiclo,0,999999,1,6,3,1
+27,9,int,contadorDeCiclos,0,99999999,0,8,0,1
+30,8,int,durTempoCicloAnterior,0,99999,0,5,2,0
+27,10,int,contadorParcialDeCiclos,0,99999999,0,8,0,1
+70,6,int,tempoFechamentoMolde,0,99999,0,5,2,0
+70,7,int,tempoIntrusao,0,99999,0,5,2,0
+70,8,int,tempoPreenchimento,0,99999,0,5,2,0
+70,9,int,tempoRecalque,0,99999,0,5,2,0
+70,10,int,tempoResfriamento,0,99999,0,5,2,0
+70,11,int,tempoAberturaMolde,0,99999,0,5,2,0
+70,14,int,tempoReciclo,0,99999,0,5,2,0
+70,15,int,durTempoCicloAtual,0,99999,0,5,2,0
+34,14,bool,habControleProducao,1,1,n,s
+31,15,int,ciclosProgramadosControleProducao,0,9999,1,4,0,2
+31,16,long,ciclosRealizadosControleProducao,0,9999,0,4,0,3
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+30,28,message,sinopticoAuto,0,27,17,12,15,                 ,Esperando START  ,Recua Extrator   ,Recua Unid.Inj.  ,Finaliza Dosagem ,Finaliza Desc. ,Recua Unid.Inj.  ,Fechament.molde,Av.Unid.Injecao  ,Intrusao         ,Preenchimento    ,Recalque         ,Recuo Unid.Inj.  ,Descompr.inicial ,Dosagem          ,Descompr.final   ,Recuo Unid.Inj.  ,Resfriamento     ,Abertura molde   ,Ciclo extracao   ,Final ciclo      ,Reciclo          ,  Pre Avanco     ,
+54,28,message,modoOperacao,0,4,12,12,2,   Manual   ,    Semi    ,    Auto       
+70,12,int,tempoAvan‡oExtratorMolde,0,99999,0,5,2,0
+$$$
+316,arquivos

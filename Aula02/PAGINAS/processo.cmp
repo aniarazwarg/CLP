@@ -1,0 +1,5 @@
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+21,5,bool,entradaInterruptor,0,0,0,1
+20,9,bool,saidaCampainha,0,0,0,1
+$$$
+316,arquivos

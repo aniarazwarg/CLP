@@ -1,0 +1,1328 @@
+Open Watcom Linker Version 1.7
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       23/05/19 14:48:40
+Executable Image: progCLP.exe
+creating a CauseWay executable
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          0002:00000000        00044d50
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+BEGTEXT                CODE           AUTO           0001:00000000   00000010
+_TEXT                  CODE           AUTO           0001:00000010   000234f0
+_NULL                  BEGDATA        DGROUP         0002:00000000   00000004
+_AFTERNULL             BEGDATA        DGROUP         0002:00000004   00000000
+CONST                  DATA           DGROUP         0002:00000004   0000152c
+CONST2                 DATA           DGROUP         0002:00001530   00000434
+_DATA                  DATA           DGROUP         0002:00001970   00001050
+XIB                    DATA           DGROUP         0002:000029c0   00000000
+XI                     DATA           DGROUP         0002:000029c0   00000066
+XIE                    DATA           DGROUP         0002:00002a26   00000000
+YIB                    DATA           DGROUP         0002:00002a26   00000000
+YI                     DATA           DGROUP         0002:00002a26   00000024
+YIE                    DATA           DGROUP         0002:00002a4a   00000000
+TIB                    DATA           DGROUP         0002:00002a4a   00000000
+TI                     DATA           DGROUP         0002:00002a4a   00000000
+TIE                    DATA           DGROUP         0002:00002a4a   00000000
+DATA                   DATA           DGROUP         0002:00002a4a   00000000
+DATA32                 DATA           DGROUP         0002:00002a4c   0000011c
+CONST32                CONST          DGROUP         0002:00002b68   00000000
+_BSS                   BSS            DGROUP         0002:00002b70   000321dc
+BSS32                  BSS            DGROUP         0002:00034d4c   00000000
+STACK                  STACK          DGROUP         0002:00034d50   00010000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: CODBASE.obj(C:\programasCLPbranqs\Aula02\CODBASE.CPP)
+0002:00002b70+ char near ELC
+0002:00002b74+ int near bandaAlarmeAquecimento
+0002:00002b78+ int near bandaDesvioTemperatura
+0002:00002b7c+ int near timeSamplePID
+0002:00002b80+ char near dsp_timeSamplePID
+0002:00002b81+ char near fim_timeSamplePID
+0002:00002b84+ Temporizador near timer_timeSamplePID
+0001:00000106  void near inicializa_CLP()
+0001:0000012c  void near finaliza_CLP()
+0001:0000014b  void near clp()
+0002:00002b98+ char near entradaInterruptor
+0002:00002b99+ char near saidaCampainha
+0002:00002b9c+ int near programa
+0002:00002ba0+ int near versao
+0002:00002ba4+ int near revisao
+0002:00002ba8+ char near aux
+0002:00002ba9+ char near cic1
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\IHM.CPP)
+0001:0000023e  void near inicializa_IHM()
+0001:000002a3  void near finaliza_IHM()
+0001:000002cf+ void near registraLogEventosDiarios( char near * )
+0001:000003e2  int near registraCampo( char near *, void near *, char )
+0001:0000049e+ void near * near encontraEnderecoCampo( char near * )
+0001:00000514+ char near encontraTipoCampo( void near * )
+0001:0000057f+ void near gravaReceita( char near * )
+0001:00000702+ void near gravaConfiguracoesInternas()
+0001:00000867+ void near gravaParametrosDisco( char near * )
+0001:00000898+ int near realizaLeituraDoArquivoEparseDosParametros( char near * )
+0001:00000c11+ void near gravaArquivoBackup( char near * )
+0001:00000cb2+ void near leParametrosArquivoTexto( char near *, int )
+0001:00000d41+ void near leReceita( char near * )
+0001:00000d72+ void near leConfiguracoesInternas()
+0001:00000da0+ void near print( int, int, char near *, int )
+0001:00000e2e* char near * near b_ltoa( long unsigned, char near * )
+0001:00000eee  void near registraLog( char near *, char near * )
+0001:00000f5f+ void near escreveLog()
+0001:00001005* void near solicitaGravacaoParametros()
+0001:0000102b+ void near executaSolicitacaoExternaDeGravacaoParametros()
+0001:0000105f  void near obterHorarioRTC( int near *, int near *, int near * )
+0001:000010e4+ void near obterDataRTC( int near *, int near *, int near * )
+0001:00001187* void near atualizarHorarioRTC( int, int, int )
+0001:0000123f* void near atualizarDataRTC( int, int, int )
+0001:00001342+ void near obterStrHorarioRTC( char near * )
+0001:00001392+ void near obterStrDataRTC( char near * )
+0001:000013e2  char unsigned near obterDiaDaSemanaRTC()
+0001:00001456* void near Campo::atualiza()
+0001:0000147a+ void near Campo::show( char near * )
+0001:00001666+ char near * near Campo::getId()
+0001:00001693+ void near Campo::setFoco()
+0001:000016cc+ void near Campo::resetFoco()
+0001:00001705+ void near Campo::entraNumero( char )
+0001:000017ea* void near Campo::confirmaEdicao()
+0001:0000180e+ void near Campo::cancelaEdicao()
+0001:00001840+ char near Campo::permiteEdicao()
+0001:00001873+ int near Campo::obterLinha()
+0001:000018a3+ int near Campo::obterColuna()
+0001:000018d3+ int near Campo::obterTamanho()
+0001:00001903+ void near Campo::forcaAtualizacao()
+0001:00001943+ near CampoLong::CampoLong( char, int, int, void near *, char near *, char, long, long, int, int )
+0001:00001a15+ void near CampoLong::atualiza()
+0001:00001a80+ void near CampoLong::show()
+0001:00001ac5+ void near CampoLong::confirmaEdicao()
+0001:00001b83+ near CampoInt::CampoInt( char, int, int, void near *, char near *, char, int, int, int, int )
+0001:00001ca6+ void near CampoInt::atualiza()
+0001:00001d11+ void near CampoInt::show()
+0001:00001d56+ void near CampoInt::confirmaEdicao()
+0001:00001e14+ near CampoChar::CampoChar( char, int, int, void near *, char near *, char, char, char, int, int )
+0001:00001ee6+ void near CampoChar::atualiza()
+0001:00001f51+ void near CampoChar::show()
+0001:00001f97+ void near CampoChar::confirmaEdicao()
+0001:00002056+ near CampoBool::CampoBool( char, void near *, char near *, char, int, int, char near *, char near * )
+0001:00002140+ void near CampoBool::atualiza()
+0001:000021d8+ void near CampoBool::show( char )
+0001:00002232+ void near CampoBool::entraNumero( char )
+0001:000022c6+ void near CampoBool::confirmaEdicao()
+0001:00002378+ near CampoAlarme::CampoAlarme( int, int, int, int )
+0001:00002439+ void near CampoAlarme::atualiza()
+0001:000025a6+ void near CampoAlarme::entraNumero( char )
+0001:000025ce+ void near CampoAlarme::confirmaEdicao()
+0001:000025f2+ void near CampoAlarme::cancelaEdicao()
+0001:00002616+ near CampoMessage::CampoMessage( int, void near *, char near *, int, int, char near *, int, int )
+0001:000026e2+ void near CampoMessage::atualiza()
+0001:00002756+ void near CampoMessage::show( int unsigned )
+0001:000028a6+ void near CampoMessage::entraNumero( char )
+0001:000028ce+ void near CampoMessage::confirmaEdicao()
+0001:000028f2+ near CampoListaArquivosDeParametros::CampoListaArquivosDeParametros( int, int )
+0001:0000296e+ void near CampoListaArquivosDeParametros::atualiza()
+0001:00002b3f+ void near CampoListaArquivosDeParametros::entraNumero( char )
+0001:00002b67+ void near CampoListaArquivosDeParametros::confirmaEdicao()
+0001:00002b8b+ void near CampoListaArquivosDeParametros::cancelaEdicao()
+0001:00002baf+ void near CampoListaArquivosDeParametros::forcaAtualizacao()
+0001:00002bda+ near CampoHoraAtual::CampoHoraAtual( int, int, int, int )
+0001:00002c71+ void near CampoHoraAtual::atualiza()
+0001:00002ccc+ void near CampoHoraAtual::entraNumero( char )
+0001:00002cf4+ void near CampoHoraAtual::confirmaEdicao()
+0001:00002d18+ void near CampoHoraAtual::cancelaEdicao()
+0001:00002d3c+ near CampoParison::CampoParison( int, int, void near *, int, int, int, int, int, char, char )
+0001:00002e3d+ void near CampoParison::atualiza()
+0001:00002f0d+ void near CampoParison::entraNumero( char )
+0001:00003433+ void near CampoParison::confirmaEdicao()
+0001:00003457+ void near CampoParison::setFoco()
+0001:0000349c+ void near CampoParison::show()
+0001:00003ed6+ void near CampoParison::desenhaPontoProgramadoNaSaida()
+0001:000047f6+ void near CampoParison::desenhaPosicaoReal()
+0001:00004b62+ char near CampoParison::alterouPontoProgramadoNaSaida()
+0001:00004bc0+ char near CampoParison::alterouPosicaoRealParison()
+0001:00004c1e+ near CampoGrafTend::CampoGrafTend( int, int, void near *, int, int, int, int, void near *, void near *, void near *, void near *, void near * )
+0001:00004d40+ void near CampoGrafTend::atualiza()
+0001:00004e98+ void near CampoGrafTend::entraNumero( char )
+0001:00004ec0+ void near CampoGrafTend::confirmaEdicao()
+0001:00004ee4+ void near CampoGrafTend::show()
+0001:000054fa+ near CampoBargraph::CampoBargraph( int, int, void near *, int, int, void near *, int, void near *, int )
+0001:000055d2+ void near CampoBargraph::atualiza()
+0001:00005695+ void near CampoBargraph::show()
+0001:000058a3+ void near CampoBargraph::entraNumero( char )
+0001:000058cb+ void near CampoBargraph::confirmaEdicao()
+0001:000058ef+ near CampoLinkTouch::CampoLinkTouch( int, int, char near *, int, int, char near *, char )
+0001:000059ab+ int near CampoLinkTouch::obtemLargura()
+0001:000059de+ int near CampoLinkTouch::obtemAltura()
+0001:00005a11+ char near * near CampoLinkTouch::obtemIdPaginaLink()
+0001:00005a43+ void near CampoLinkTouch::atualiza()
+0001:00005a67* void near CampoLinkTouch::show()
+0001:00005a8b+ void near CampoLinkTouch::entraNumero( char )
+0001:00005ab3+ void near CampoLinkTouch::confirmaEdicao()
+0001:00005ad7+ near CampoBotaoTouch::CampoBotaoTouch( void near *, int, int, char near *, int, int, char )
+0001:00005b8c+ int near CampoBotaoTouch::obtemLargura()
+0001:00005bbf+ int near CampoBotaoTouch::obtemAltura()
+0001:00005bf2+ void near CampoBotaoTouch::atualiza()
+0001:00005c16* void near CampoBotaoTouch::show()
+0001:00005c3a+ void near CampoBotaoTouch::entraNumero( char )
+0001:00005c62+ void near CampoBotaoTouch::confirmaEdicao()
+0001:00005c86+ void near CampoBotaoTouch::acionaBotao()
+0001:00005cc0+ void near CampoBotaoTouch::desacionaBotao()
+0001:00005cf6+ void near defineNivelProtecaoAtivo()
+0001:00005d58+ near CampoSenha::CampoSenha( char, int, void near *, char near *, char, int, int )
+0001:00005e13+ void near CampoSenha::atualiza()
+0001:00005e7e+ void near CampoSenha::show()
+0001:00005ec3+ void near CampoSenha::confirmaEdicao()
+0001:00005f4e+ near Atalho::Atalho( char near *, int )
+0001:00005f91+ near Pagina::Pagina( char near * )
+0001:00005ff9+ void near Pagina::montaPagina()
+0001:000076a9+ void near Pagina::mostraPagina()
+0001:00007726+ void near Pagina::adicionaCampo( Campo near *, char near * )
+0001:0000779d+ void near Pagina::adicionaAtalho( Atalho near * )
+0001:000077fc+ void near Pagina::atualizaCampos()
+0001:0000785c+ char near * near Pagina::encontraAtalho( int )
+0001:000078d5* void near Pagina::desmontaPagina()
+0001:00007976+ void near Pagina::posicFocoCampoAbaixo()
+0001:00007b42+ void near Pagina::posicFocoPrimeiroCampo()
+0001:00007c51+ void near Pagina::posicFocoProxCampo()
+0001:00007e32+ char near Pagina::existeCampoEdit()
+0001:00007e9d+ void near Pagina::posicFocoCampoAnterior()
+0001:0000807e+ void near Pagina::posicFocoCampoAcima()
+0001:0000824a+ void near Pagina::posicFocoCampoNaPosicao( int, int )
+0001:000083c6+ void near Pagina::verificaFuncoesTouch( char near * )
+0001:00008473+ void near Pagina::obtemPaginaDestinoViaLinkTouch( char near *, int, int )
+0001:00008562+ char near Pagina::trataBotoesTouch( int, int )
+0001:0000865d+ void near Pagina::liberaTodosBotoesTouch()
+0001:000086d8+ void near Pagina::entraNumero( char )
+0001:00008728+ void near Pagina::confirmaEdicao()
+0001:00008773+ void near Pagina::cancelaEdicao()
+0001:000087be+ void near Pagina::habilitaPagina()
+0001:000087ec+ void near Pagina::desabilitaPagina()
+0001:0000881a+ char near Pagina::verificaPaginaHabilitada()
+0001:0000884d+ char near verificaSeArquivoJaExiste( long )
+0001:000088b1+ void near gravaArquivo( long )
+0001:00008942+ void near leArquivo( long )
+0001:000089a7+ void near eliminaArquivo( long )
+0001:00008a38+ void near arquivoDeParametros( int, Pagina near *, char near * )
+0001:00008c1f+ Pagina near * near obtemPaginaPeloId( char near * )
+0001:00008c92* void near habilitaPagina( char near * )
+0002:00002bc8  int unsigned near campo_stdIDh
+0002:00002bcc  int unsigned near campo_stdIDl
+0002:00002bd0  int unsigned near campo_xtdIDh
+0002:00002bd4  int unsigned near campo_xtdIDl
+0002:00002bd8  int unsigned near campo_dataLenght
+0002:00002bdc  int unsigned near campoIDesperado
+0002:00002be0  int unsigned near campoParamEsperado
+0002:00002be4  int unsigned near campoParamRecebido
+0002:00002be8  char near alterouParametros
+0002:00002be9+ char near nivelProtecaoAtivo
+0002:00002bec+ long near senhaCorrente
+0002:00002bf0+ long near senhaProtecaoNivel1
+0002:00002bf4+ long near senhaProtecaoNivel2
+0002:00002bf8+ long near senhaProtecaoNivel3
+0002:00002bfc+ int near touchInstalado
+0002:00002c00+ int unsigned near clustersDisponiveisNoDisco
+0002:00002c04+ int near oldmode
+0002:00002c08+ char unsigned near * near fsystem
+0002:00002c0c+ int near ultimoDiaDaSemanaLogEventos
+0002:00002c10+ int near qtdCampos
+0002:00002c14+ __2rgllndefCampos near defCampos[]
+0002:00023f58+ char near arquivosLog[][20]
+0002:00001970+ char near nomeArqEventosDiarios[][8]
+0002:00026668+ char near eventosLog[][80]
+0002:000302a8+ int near indexWR
+0002:000302ac+ int near indexRD
+0002:000302b0+ char near flagSolicitaGravacao
+0002:000302b4+ CampoListaArquivosDeParametros near * near campoListaArquivos
+0002:000302b8+ char near horaAtual
+0002:000302b9+ char near campoLinkTouch
+0001:00008cd6* void near desabilitaPagina( char near * )
+0001:00008d1a+ void near inicializaTouch()
+0001:00008d6e+ char near pressionouTouch( int near *, int near * )
+0001:00008e0c  void near ihm()
+0002:000302bc+ Pagina near * near paginas[]
+0002:000305dc+ int near numPaginas
+0002:000305e0+ int near xTouchRaw
+0002:000305e4+ int near yTouchRaw
+0002:000305e8+ char near rodouIHM
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\LIBCLP.CPP)
+0001:000095b5  char near realizouColdStart( int )
+0001:00009604  char near verificaAlteracaoParametros()
+0001:0000963d  int near registraSaidaDigital( char near *, char near * )
+0001:00009705* char near obtemEstadoSaidaDigital( int, int )
+0001:0000976f* int near registraSaidaDigitalEstendida( char near *, char near * )
+0001:00009837* char near obtemEstadoSaidaDigitalEstendida( int, int )
+0001:000098a1  int near registraEntradaDigital( char near *, char near * )
+0001:0000996c* int near registraEntradaDigitalBC4SA( char near *, char near * )
+0001:00009a0c* int near registraEntradaTemperatura( char near *, int near *, char )
+0001:00009b48* int near registraEntradaContador( char near *, int near * )
+0001:00009be8* int near registraEntradaAnalogica( char near *, int near * )
+0001:00009cb3* int near registraSaidaAnalogica( char near *, int near * )
+0001:00009d7e* int near registraSaidaPWM( char near *, int near * )
+0001:00009e1e* int near registraEntradaEspecial( char near *, void near *, int )
+0001:00009ed0* int near registraEntradaVirtual( char near *, char near *, int near *, int near *, int )
+0001:00009f77  void near trataEntradasVirtuais()
+0001:0000a0c4* int near registraBotaoIHM( char near *, char near *, char )
+0001:0000a144  void near verificaTemporizadores()
+0001:0000a19a  near Temporizador::Temporizador( char near *, char near *, int near * )
+0001:0000a238+ void near Temporizador::verificaTemporizador()
+0001:0000a2f4* int near Temporizador::tempoDecorrido()
+0001:0000a34c* near TemporizadorDeMinuto::TemporizadorDeMinuto( char near *, char near *, int near * )
+0001:0000a43b+ void near TemporizadorDeMinuto::verificaTemporizador()
+0001:0000a501* int near TemporizadorDeMinuto::tempoDecorrido()
+0001:0000a531  void near realizaConversoesDeEscala()
+0001:0000a57f* near ConversorEscala::ConversorEscala( int near *, int near *, int, int, int, int )
+0001:0000a603+ void near ConversorEscala::reconfiguraConversor( int, int, int, int )
+0001:0000a671+ void near ConversorEscala::converteEscala()
+0001:0000a6bb  void near inicializa_LIBCLP()
+0001:0000a6da  void near finaliza_LIBCLP()
+0001:0000a6f9+ near Alarme::Alarme()
+0001:0000a75a+ void near Alarme::insereAlarme( char near *, char near * )
+0001:0000a7ce  void near Alarme::resetIterador()
+0001:0000a7ff  int near Alarme::proxAlarme()
+0001:0000a891  char near * near Alarme::getMensagemAlarme( int )
+0001:0000a8cb+ char near * near Alarme::getMensagemAlarme( char near * )
+0001:0000a936  int near Alarme::numTotalAlarmes()
+0001:0000a969+ void near Alarme::existeAlarme( int near * )
+0001:0000a9d6+ void near Alarme::registraOcorrenciasNoLogEventosDiarios()
+0001:0000a9fa* void near registraAlarmeNoLog( int, char near *, char near * )
+0001:0000aa6b* char near registraAlarme( char near *, char near * )
+0001:0000aaa7  void near verificaAlarmes()
+0001:0000aadf* near PID::PID( double, double, double, double )
+0001:0000ab84* void near PID::reprogramaPID( double, double, double, double )
+0001:0000abf1* double near PID::calculaPID( double )
+0001:0000ad89* near ProgramadorDeParison::ProgramadorDeParison( char near *, void near *, int near *, int near * )
+0001:0000ae29  int near ProgramadorDeParison::obterValorEmPonto( int )
+0001:0000ae7a  void near ProgramadorDeParison::alteraCampoPontoProgramador( int )
+0001:0000aead  int near ProgramadorDeParison::obtemConteudoCampoPontoProgramador()
+0001:0000aee2  void near ProgramadorDeParison::alteraCampoValorProgramador( int )
+0001:0000af15  int near ProgramadorDeParison::obterSaidaEmPonto( int )
+0001:0000af84  char near ProgramadorDeParison::obterStatusPontoMaster( int )
+0001:0000afcf  void near ProgramadorDeParison::alteraValorPonto( int, int )
+0001:0000b045  void near ProgramadorDeParison::alteraPontoMaster( int, char )
+0001:0000b09a* void near ProgramadorDeParison::alteraPeso( int )
+0001:0000b0d5* void near ProgramadorDeParison::alteraEscala( int )
+0001:0000b110* int near ProgramadorDeParison::obterSaidaPorTempo( int, int )
+0001:0000b275+ void near ProgramadorDeParison::realizaInterpolacao()
+0001:0000b345  char near ProgramadorDeParison::alterouPrograma()
+0001:0000b388  void near ProgramadorDeParison::gravaPontosArquivo( char near *, __iobuf near * )
+0001:0000b40a  int near ProgramadorDeParison::lePontosArquivo( __iobuf near * )
+0001:0000b5f9  int near ProgramadorDeParison::obtemPontoProgramadoNaSaida()
+0001:0000b62c* void near ProgramadorDeParison::registraPosicaoReal( int )
+0001:0000b6b0  int near ProgramadorDeParison::obtemPosicaoReal()
+0001:0000b6e3  int near ProgramadorDeParison::obtemPosicaoRealArmazenada( int )
+0001:0000b71d* void near ProgramadorDeParison::registraTensaoAplicadaNaSaida( int )
+0001:0000b75a  int near ProgramadorDeParison::obtemTensaoAplicadaNaSaida( int )
+0001:0000b794  char near ProgramadorDeParison::plotagemCurvaTensaoAplicadaNaSaidaHabilitada()
+0001:0000b7c7* void near ProgramadorDeParison::habilitaPlotagemCurvaTensaoAplicadaNaSaida()
+0001:0000b7f5* void near ProgramadorDeParison::desabilitaPlotagemCurvaTensaoAplicadaNaSaida()
+0001:0000b823* void near ProgramadorDeParison::habilitaPlotagemCurvaPosicaoReal()
+0001:0000b851* void near ProgramadorDeParison::desabilitaPlotagemCurvaPosicaoReal()
+0001:0000b87f  char near ProgramadorDeParison::plotagemCurvaPosicaoRealHabilitada()
+0001:0000b8b2* near Linearizador10Pontos::Linearizador10Pontos()
+0001:0000b915* void near Linearizador10Pontos::configura( int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int )
+0001:0000b9f1* int near Linearizador10Pontos::obtemValorLinearizado( int )
+0001:0000baed* near LinearizadorAutomatico10Pontos::LinearizadorAutomatico10Pontos( int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near *, int near * )
+0001:0000bc0f+ void near LinearizadorAutomatico10Pontos::realizaLinearizacao()
+0001:0000bd27  void near realizaLinearizacoesAutomaticas()
+0001:0000bd75* near AgendamentoSemanal::AgendamentoSemanal()
+0001:0000bde2* void near AgendamentoSemanal::programaAgenda( char, int, int, char, int, int, char, int, int, char, int, int, char, int, int, char, int, int, char, int, int )
+0001:0000bec7* char near AgendamentoSemanal::verificaAtivacao()
+0001:0000bf4b+ char unsigned near AgendamentoSemanal::obterDiaDaSemana()
+0001:0000bf7a* char unsigned near verificaProtecaoSoftware( char near *, long )
+0001:0000c066* void near incrementaNumeroOcorrenciasProtecaoSoftware()
+0001:0000c09a* void near acionaAtalho( int )
+0001:0000c0c6* void near bloqueiaIHM()
+0001:0000c0ec* void near desbloqueiaIHM()
+0001:0000c112* near GraficoDeTendencia::GraficoDeTendencia( char near *, void near * )
+0001:0000c159* void near GraficoDeTendencia::insereAmostra( int )
+0001:0000c20d+ void near GraficoDeTendencia::apagaAmostras()
+0001:0000c255  int near GraficoDeTendencia::obtemValorAmostra( int )
+0001:0000c2aa  int near GraficoDeTendencia::obtemNumeroDeAmostrasInseridas()
+0001:0000c2dd  char near GraficoDeTendencia::verificaAlterouAmostras()
+0001:0000c310  void near GraficoDeTendencia::resetAlterouAmostras()
+0001:0000c33e* int near GraficoDeTendencia::obterMaiorValorAmostra()
+0001:0000c371* near Filtro1aOrdem::Filtro1aOrdem( int near *, int near *, int near *, int )
+0002:000305f0  int unsigned near coldStart
+0002:000305f4  long near numeroArquivo
+0002:000305f8  int near operacaoArquivos
+0002:000305fc  int near statusOperacaoArquivos
+0002:00030600  char near campoNomesArquivos
+0002:00030604  long near ultimaReceitaLida
+0002:00030608  char near automatico
+0002:0003060c  int near qtdSaidasDigitais
+0002:00030610  char near * near saidasDigitais[]
+0002:00030810  char near habilitaPlacaBC8S[]
+0002:00030820  int near qtdSaidasDigitaisEstendidas
+0002:00030824  char near * near saidasDigitaisEstendidas[]
+0002:00030a28  char near habilitaPlacaBC8Sestendida[]
+0002:00030a38  int near qtdEntradasDigitais
+0002:00030a3c  char near * near entradasDigitais[]
+0002:00030c40  char near habilitaPlacaBC8E[]
+0002:00030c50  int near qtdEntradasDigitaisBC4SA
+0002:00030c54  char near * near entradasDigitaisBC4SA[]
+0002:00030c98  char near habilitaEntradaDigitalBC4SA[]
+0002:00030ca8  int near qtdEntradasTemperatura
+0002:00030cac  int near * near entradasTemperatura[]
+0002:00030db0  char near habilitaPlacaBC4TP[]
+0002:00030dc0  char near tipoTermoparCanalBC4TP[]
+0002:00030e00  int unsigned near offSetJFBC4TP[]
+0002:00030e40  int near qtdEntradasContador
+0002:00030e44  int near * near entradasContador[]
+0002:00031048  char near habilitaEntradasContador[]
+0002:000310c8  int near qtdEntradasAnalogicas
+0002:000310cc  int near * near entradasAnalogicas[]
+0002:000311d0  char near habilitaPlacaBC4EA[]
+0002:000311e0  int near qtdSaidasAnalogicas
+0002:000311e4  int near * near saidasAnalogicas[]
+0002:000312e8  char near habilitaPlacaBC4SA[]
+0002:000312f8  int near qtdSaidasPWM
+0002:000312fc  int near * near saidasPWM[]
+0002:00031340  char near habilitaSaidaPWM[]
+0002:00031350  int near qtdEntradasEspeciais
+0002:00031354  void near * near entradasEspeciais[]
+0002:00031394  int near tiposEntradasEspeciais[]
+0002:000313d8  char near habilitaEntradaEspecial[]
+0002:000313e8+ int near qtdEntradasVirtuais
+0002:000313ec+ EntradaVirtual near entradasVirtuais[]
+0002:00031bf0+ char unsigned near filtroEntradasVirtuais[]
+0002:00031c70  int near qtdBotoesIHM
+0002:00031c74  BotaoIHM near botoesIHM[]
+0002:00032074+ int near qtdTemporizadores
+0002:00032078+ TemporizadorPai near * near timers[]
+0002:00032398+ int near qtdConversoresEscala
+0002:0003239c+ ConversorEscala near * near conversoresEscala[]
+0002:00032464  int near alarmeAtivo
+0002:00032468  Alarme near alarmes
+0002:00032efc  char near campoAlarme
+0002:00032efd  char unsigned near aquecimentoLigado
+0002:00032f00+ int near qtdLinearizadoresAutomaticos10Pontos
+0001:0000c3e3* double near Filtro1aOrdem::calcula( int )
+0002:00032f04+ LinearizadorAutomatico10Pontos near * near linearizadoresAutomaticos10Pontos[]
+0002:00032fcc  int near atalhoAcionadoViaCLP
+0002:00032fd0  char near ihmBloqueadaPeloCLP
+0002:00032fd4+ int near amostras[]
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\ATUENT.CPP)
+0002:000333e0+ char unsigned near filtro[]
+0002:00033460+ char unsigned near filtroEntradasDigitaisBC4SA[]
+0002:00033470+ int unsigned near juntaFriaCelsius[]
+0002:000334b0+ int unsigned near indicePlacaBC4TP
+0002:000334b4+ int unsigned near indiceCanalBC4TP
+0002:000334b8+ int near numeroPlacasBC4TP
+0002:000334bc+ int near numeroUltimoCanalUltimaPlaca
+0001:0000c485  void near inicializa_ATUENT()
+0001:0000c54b  void near finaliza_ATUENT()
+0001:0000c56a  void near atuEnt()
+0001:0000cd05+ int unsigned near leTemperatura( int unsigned, int unsigned, int unsigned )
+0002:000334c0+ int near contadorCanaisPlacasCompletas
+0002:000334c4+ int near contadorCanaisUltimaPlaca
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\ATUSAI.CPP)
+0001:0000d1cf  void near inicializa_ATUSAI()
+0001:0000d1ee  void near finaliza_ATUSAI()
+0001:0000d20d  void near atuSai()
+Module: bcv03r36.lib(D:\WGT5\CODE\WTEXT.C)
+0001:0000d520* wflashcursor_
+0001:0000d618* wsetcursor_
+0001:0000d628* wouttextxy_
+0001:0000d724+ woutchar_
+0001:0000dba4  wtextcolor_
+0001:0000dbb0  wtextbackground_
+0001:0000dbbc* wtextgrid_
+0001:0000dbec  wtexttransparent_
+0002:000334c8  _fore
+0002:000334ca+ _cstart
+0002:000334cc  _back
+0002:000334ce  _trans
+0002:000334d0* _wfontsize
+0002:000334d2+ _cend
+0002:000334d4  _grid
+0002:000334d6  _xc
+0002:000334d8+ _yc
+0002:000334da+ _curspeed
+Module: bcv03r36.lib(D:\WGT5\CODE\WSETMODE.C)
+0001:0000dc00  vga256_
+0001:0000dc88  wgetmode_
+0001:0000dcb4  wsetmode_
+0001:0000dce0* vgadetected_
+Module: bcv03r36.lib(G:\WGT5\CODE\wgtvesa.c)
+0002:000334dc+ _VGA
+0002:000336dc+ _VESAbanksize
+0001:0000dd20* FIRSTMEG_
+0001:0000dd38+ low_alloc_
+0001:0000dda4+ simulate_
+0001:0000ddf8+ wvesa_detected_
+0001:0000df30* wvesa_supported_
+0001:0000df5c+ wvesa_getmodeinfo_
+0001:0000dffc  wvesa_init_
+0001:0000e0d8+ wvesa_bank_
+0001:0000e158* wvesa_setlogical_
+0001:0000e190* wvesa_setphysical_
+0001:0000e1d4* wvesa_setwidth_
+0001:0000e240+ wvesa_clip_
+0001:0000e2b4  wvesa_cls_
+0001:0000e30c  wvesa_line_
+0001:0000e628+ wvesa_hline_
+0001:0000e750* wvesa_xorline_
+0001:0000e87c  wvesa_bar_
+0001:0000ea34* wvesa_rectangle_
+0001:0000ea84  wvesa_putpixel_
+0001:0000eb08* wvesa_getpixel_
+0001:0000eb50* wvesa_newblock_
+0001:0000ed84+ wvesa_copyscreen_
+0001:0000f0f8  wvesa_putblock_
+0001:0000f128  wvesa_outtextxy_
+0001:0000f228+ wvesa_outchar_
+0002:0003371c  _VESAmode
+Module: bcv03r36.lib(D:\WGT5\CODE\WLOADFON.C)
+0001:0000f800  wloadfont_
+0001:0000f934* wfreefont_
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\KERNEL.CPP)
+0001:0000f962+ void near finaliza_multitarefa()
+0001:0000f9fc  void near saiFora( char near * )
+0001:0000fa3d+ void far escalonador()
+0001:0000faa0* int near ctrlbrkHandler()
+0001:0000facb+ void far minhaInt09()
+0001:0000fb86+ void far prtScrHandler()
+0001:0000fba5+ void near inicializa_multitarefa()
+0001:0000fc93  void near inicializa_KERNEL()
+0001:0000fcb7  void near finaliza_KERNEL()
+0001:0000fcdb+ near GerenciadorDePrioridades::GerenciadorDePrioridades()
+0001:0000fd29  void near GerenciadorDePrioridades::registraSinal( void near * )
+0001:0000fd84+ int near GerenciadorDePrioridades::encontraIndiceSinal( void near * )
+0001:0000fdf0* void near GerenciadorDePrioridades::definePrioridade( void near *, int )
+0001:0000fe3c+ char near GerenciadorDePrioridades::existeSinalComPrioridadeAcimaNormal()
+0001:0000fea4+ char near GerenciadorDePrioridades::existeSinalComPrioridadeAbaixoNormal()
+0001:0000ff0c  char near GerenciadorDePrioridades::execucaoPermitida( void near * )
+0001:00010039+ void near GerenciadorDePrioridades::limpaFlagsExecucaoNormalNoCicloAtual()
+0001:000100a5+ void near GerenciadorDePrioridades::limpaFlagsExecucaoAbaixoNormalNoCicloAtual()
+0001:00010107  void near GerenciadorDePrioridades::fimDoScan()
+0001:00010219* int near GerenciadorDePrioridades::obtemQuantidadeSinaisRegistrados()
+0001:0001024c* void near * near GerenciadorDePrioridades::obtemEnderecoApartirDoIndice( int )
+0002:00033934+ int near global_inicializouMultitarefa
+0002:00033938+ void (far * near global_intoriginal)()
+0002:00033940  int near contadorTempoIRQ
+0002:00033944+ int near soma_prioridades
+0002:00033948+ void (far * near antigaInt09)()
+0002:00033950+ void (far * near antigoPrtScr)()
+0002:00033958  GerenciadorDePrioridades near gerenciadorDePrioridades
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\INICIO.CPP)
+0001:00010282  main_
+0002:00034140  char unsigned near modoSimulador
+0002:00034141+ char unsigned near logAquecimento
+Module: C:\WATCOM/lib386/dos\clib3r.lib(ltoa)
+0001:00010380  ultoa_
+0001:000103d0  ltoa_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strncat)
+0001:00010400  strncat_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dosfind)
+0001:00010440  _dos_findfirst_
+0001:0001045d  _dos_findnext_
+0001:00010479* _dos_findclose_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strncpy)
+0001:000104d0  strncpy_
+Module: bcv03r36.lib(D:\WGT5\CODE\WSETCOL.C)
+0001:00010510* wsetrgb_
+0001:00010548  wsetcolor_
+0001:00010550  wsetpalette_
+0001:000105a4* wreadpalette_
+Module: C:\WATCOM/lib386\math387r.lib(fchop)
+0001:00010600  __CHP
+Module: bcv03r36.lib(D:\WGT5\CODE\WBMP.C)
+0001:00010620  wloadbmp_
+0001:00010ae4* wsavebmp_
+Module: C:\WATCOM/lib386\plbx3r.lib(opnew)
+0001:00010d80  void near * near operator new( int unsigned )
+Module: C:\WATCOM/lib386/dos\clib3r.lib(feof)
+0001:00010dd0  feof_
+Module: C:\WATCOM/lib386\plbx3r.lib(opdel)
+0001:00010de0  void near operator delete( void near * )
+Module: C:\WATCOM/lib386/dos\clib3r.lib(abs)
+0001:00010df0  abs_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(remove)
+0001:00010e00  remove_
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\CANBUS.CPP)
+0001:00010e05  void near inicializa_CANBUS()
+0001:00010e2e  void near finaliza_CANBUS()
+0001:00010e4d+ void near spi_send( char unsigned )
+0001:00010ed9+ char unsigned near spi_rx()
+0001:00010f76* char unsigned near can_rx()
+0001:00011097+ void near can_rx_buffer( int, char unsigned near * )
+0001:00011228+ void near can_send( int unsigned, char unsigned near *, int )
+0001:00011470+ void near initCAN( long unsigned )
+0001:000114a6+ void near configMCP()
+0001:00011668+ void near atrasoSPI()
+0001:000116a6+ void far rot()
+0001:0001170e+ void near obterTimmingSPI()
+0001:00011876  char unsigned near leBC8E( int unsigned )
+0001:00011a2f  char unsigned near leEntradaDigitalBC4SA( int unsigned )
+0001:00011be8  void near leBC4TP( int unsigned, char unsigned near *, int unsigned )
+0001:00011db3  void near leEntradaContador( int unsigned, char unsigned near *, int unsigned )
+0001:00011f7a  void near leBC4EA( int unsigned, char unsigned near *, int unsigned )
+0001:00012152  void near leEntradaPeriodo( int unsigned, char unsigned near * )
+0001:00012269  void near leEntradaEncoder( int unsigned, char unsigned near * )
+0001:00012414  void near atualizaPWM( int unsigned, int unsigned )
+0001:00012490  void near atualizaEncoder( int unsigned, int unsigned )
+0001:0001250c  void near atualizaBC8S( int unsigned, char unsigned )
+0001:0001257f  void near atualizaBC8Sestendida( int unsigned, char unsigned )
+0001:000125f2  void near atualizaBC4SA( int unsigned, int unsigned, int unsigned )
+0001:00012675* char unsigned near leRegistroMCP2515( char unsigned )
+0001:000126fc* void near modificaRegistroMCP2515( char unsigned, char unsigned )
+0001:0001281f* void near resetCAN()
+0001:00012882* char unsigned near comunicaBCCAN( char )
+0001:000128c0+ void near enviaByteBCCAN( char )
+0001:0001294c+ char unsigned near recebeByteBCCAN()
+0001:000129e9+ void near atrasoSPI_BCCAN()
+0001:00012a27* void near liberaComunicacaoPICxMCP()
+0001:00012a6c* void near interrompeComunicacaoPICxMCP()
+0001:00012ab1  void near iniciaComunicacaoTodosModulos()
+0001:00012ae8  void near finalizaComunicacaoTodosModulos()
+0002:00034188  char unsigned near statusCAN_timeout
+0002:0003418c  long unsigned near statusCAN_maxContadorTimeout
+0002:00034190  long unsigned near statusCAN_numeroConfigMCP
+0002:00034194  long unsigned near statusCAN_errosBCComunic
+0002:00034198  int unsigned near statusBC8E
+0002:0003419c  int unsigned near statusBC8S
+0002:000341a0  int unsigned near statusBC8Sestendida
+0002:000341a4  int unsigned near statusBC4TP
+0002:000341a8  int unsigned near statusBC4EA
+0002:000341ac  int unsigned near statusBC4SA
+0002:000341b0  long unsigned near refAtrasoSPI
+0002:000341b4+ char unsigned near stdIDh
+0002:000341b5+ char unsigned near stdIDl
+0002:000341b6+ char unsigned near xtdIDh
+0002:000341b7+ char unsigned near xtdIDl
+0002:000341b8+ char unsigned near dataLenght
+0002:000341bc+ long unsigned near configCAN_limiteTimeout
+0001:00012b1f  void near iniciaComunicacaoCadaModulo()
+0001:00012b56  void near finalizaComunicacaoCadaModulo()
+0002:00001f60+ char unsigned near bytesConfiguracao[]
+0002:000341c0+ char unsigned near imagem
+0002:000341c4+ long unsigned near contadorFantasia
+0002:000341c8+ long unsigned near contador
+0002:000341cc+ int near indiceContador
+0002:000341d0+ long unsigned near contadores[]
+0002:00034810+ long unsigned near refAtrasoSPI_BCCAN
+0002:00034814+ int unsigned near byteLow
+0002:00034818+ int unsigned near byteHigh
+Module: bcv03r36.lib(C:\Dados\Empresa\0005_Engenharia\0003_EspecificacoesDeItensFabricados\bcv03_BibliotecaBranCommandModoGrafico\V03R36\PROTECAO.CPP)
+0001:00012b8d  void near inicializa_PROTECAO()
+0001:00012bfc  void near finaliza_PROTECAO()
+0001:00012c1b+ void near MD5Init( __2t83kuMD5_CTX near * )
+0001:00012c7c+ void near MD5Update( __2t83kuMD5_CTX near *, char unsigned near *, int unsigned )
+0001:00012d8a+ void near MD5Final( __2t83kuMD5_CTX near * )
+0002:00034a7c  int unsigned near idInstalacao
+0002:00034a80  int unsigned near frequenciaMudancaSenha
+0002:00034a84  int unsigned near numeroOcorrencias
+0002:00034a88  int unsigned near numeroOcorrenciasProtegido
+0002:00034a8c+ char unsigned near assinaturaProgramaReset
+0002:00034a90+ char near chavePrivadaGravadaNaIHM[]
+0001:00013ca4+ char near * near MD5String( char near * )
+0001:00013d43+ long near obtemSenhaNumerica( char near * )
+0001:00013def  char near verificaSenhaNumerica( char near *, long )
+0001:00013e34  char near verificaErroChavePrivada( char near * )
+0001:00013e7f  void near leParametrosProtecaoSoftwareDaIHM()
+0001:00013ff0  void near gravaNumeroOcorrencias()
+0002:00034a9c+ long near debugProtecao
+Module: C:\WATCOM/lib386/dos\clib3r.lib(kbhit)
+0001:000140a0  kbhit_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(getch)
+0001:000140c0  getch_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fltused)
+0002:00002020  _fltused_
+Module: C:\WATCOM/lib386\plbx3r.lib(iofefg)
+0001:00014120  std::istream near & near operator >>( std::istream near &, smanip<long near > const near & )
+0001:00014140  std::istream near & near operator >>( std::istream near &, smanip<int near > const near & )
+0001:00014160  std::ostream near & near operator <<( std::ostream near &, smanip<long near > const near & )
+0001:00014180  std::ostream near & near operator <<( std::ostream near &, smanip<int near > const near & )
+0002:000029d8  __ppfltused_
+Module: C:\WATCOM/lib386/dos\emu387.lib(386)
+0001:00014198  __init_387_emulator
+0001:0001419d* __fini_387_emulator
+Module: C:\WATCOM/lib386/dos\clib3r.lib(_8087)
+0002:00002024  __8087
+0002:00002025  __real87
+Module: C:\WATCOM/lib386/dos\clib3r.lib(ldiv386)
+0001:000141a4  div_
+0001:000141a4* ldiv_
+Module: bcv03r36.lib(D:\WGT5\CODE\WNPBLOCK.C)
+0001:000141c0  wputblock_
+0001:00014348  wnewblock_
+0001:00014440* wallocblock_
+Module: bcv03r36.lib(D:\WGT5\CODE\WBOX.C)
+0001:00014480* wrectangle_
+0001:000144d8  wbar_
+Module: bcv03r36.lib(D:\WGT5\CODE\WMISCB.C)
+0001:000145e0  wfreeblock_
+0001:000145e8  wgetblockwidth_
+0001:000145ec  wgetblockheight_
+Module: bcv03r36.lib(D:\WGT5\CODE\wgt5.C)
+0002:00002088* _transparent
+0002:0000208a  _tx
+0002:0000208c  _ty
+0002:0000208e  _bx
+0002:00002090  _by
+0001:00014600* wcls_
+0002:00034aa0  _abuf
+0002:00034aa4  _WGT_SYS
+0002:00034ab6* _wgterror
+0002:00034ab8  _eggrules
+0002:00034aba  _currentcolor
+Module: C:\WATCOM/lib386/dos\clib3r.lib(printf)
+0001:00014630  printf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(exit)
+0001:00014652+ __null_int23_exit_
+0001:00014654  exit_
+0001:00014680* _exit_
+0002:00002098+ ___int23_exit
+0002:0000209c  ___FPE_handler_exit
+Module: C:\WATCOM/lib386/dos\clib3r.lib(intx386)
+0001:000146a0  int386x_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(memset)
+0001:000146c0  memset_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(nmalloc)
+0001:000146e0  malloc_
+0001:000146f0  _nmalloc_
+0002:000020a0  ___nheapbeg
+0002:000020a4  ___MiniHeapRover
+0002:000020a8  ___LargestSizeB4MiniHeapRover
+Module: bcv03r36.lib(WPUTBLOK.ASM)
+0001:000147f0  _putxray
+Module: bcv03r36.lib(D:\WGT5\CODE\libr.c)
+0002:00034ad0  _password
+0002:00034ae8  _lfpos
+0002:00034aec  _lsize
+0002:00034af0  _libf
+0001:00014870* setlib_
+0001:0001491c  checkpassword_
+0001:000149b4  readheader_
+0001:00014a2c* setpassword_
+0001:00014aac* lib2buf_
+0001:00014bd0* closelibr_
+0001:00014bdc* add_file_to_list_
+0001:00014c34+ build_file_list_
+0001:00014d94+ build_fast_lookup_
+0001:00014e00+ free_fast_lookup_
+0001:00014e1c  findfile_
+0002:000020c4+ _filenode
+0002:000020c8  _wgtlibrary
+0002:00034af6  _lresult
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fseek)
+0001:00014f30  fseek_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(filelen)
+0001:00015040  filelength_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fread)
+0001:00015090  fread_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(nfree)
+0001:00015270  free_
+0001:00015280  _nfree_
+0002:00034af8  ___MiniHeapFreeRover
+Module: C:\WATCOM/lib386/dos\clib3r.lib(d_setvec)
+0001:00015380  _dos_setvect_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(outp)
+0001:000153b0  outp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(cstart)
+0001:00000003* ___begtext
+0002:00000000* __nullarea
+0002:000020cc  __D16Infoseg
+0002:000020ce  __x386_zero_base_selector
+0001:000153bc  _cstart_
+0001:000155e2  __exit_
+0001:000155e4  __do_exit_with_msg__
+0001:0001561c  __GETDS
+0001:0001561c  ___GETDSStart_
+0001:00015627  ___GETDSEnd_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(inp)
+0001:00015630  inp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(d_getvec)
+0001:00015640  _dos_getvect_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(break)
+0001:00015680* break_on_
+0001:00015690  break_off_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(argcv)
+0002:00034afc  __argc
+0002:00034b00  __argv
+0002:00034b04  ___argc
+0002:00034b08  ___argv
+Module: C:\WATCOM/lib386\plbx3r.lib(fsroot)
+0002:000029f0  ___wcpp_4_data_init_fs_root_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(alphabet)
+0002:00001358  ___Alphabet
+Module: C:\WATCOM/lib386/dos\clib3r.lib(doserror)
+0001:000156b0  __doserror_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(crwdata)
+0002:0000210b  __osmajor
+0002:0000210c  __osminor
+0002:000020e0  __psp
+0002:00002102  __Extender
+0002:00002103  __ExtenderSubtype
+0002:00002104  __X32VM
+0002:000020e4* __x386_stacklow
+0002:000020d8  __LpCmdLine
+0002:000020dc  __LpPgmName
+0002:000020d0  __dynend
+0002:000020d4  __curbrk
+0002:000020e4  __STACKLOW
+0002:000020e8  __STACKTOP
+0002:000020ec  __ASTACKSIZ
+0002:000020f0  __ASTACKPTR
+0002:000020f4  __cbyte
+0002:000020f8* __cbyte2
+0002:000020fc  __child
+0002:00002105  __Envptr
+0002:00002109  __Envseg
+0002:00002100  __no87
+0002:0000210d  ___FPE_handler
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fgetpos)
+0001:000156d0  fgetpos_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fwrite)
+0001:000156f0  fwrite_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fputc)
+0001:000158d0  fputc_
+Module: C:\WATCOM/lib386\plbx3r.lib(cppdata)
+0002:00034b0c  __wint_thread_data
+0002:00034b30  __compiled_under_generic
+Module: C:\WATCOM/lib386/dos\clib3r.lib(unlnk)
+0001:00015990  unlink_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(disable)
+0001:000159c0  _disable_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(enable)
+0001:000159d0  _enable_
+Module: C:\WATCOM/lib386\math387r.lib(pow387)
+0001:00015b33* pow_
+0001:000159d4  IF@DPOW
+0001:000159d4* IF@POW
+Module: C:\WATCOM/lib386/dos\clib3r.lib(setefg)
+0001:00015b50  __setEFGfmt_
+Module: C:\WATCOM/lib386\plbx3r.lib(iofnoefg)
+0002:00002114  void (near * near __EFG_cnvs2d)( char near *, double near * )
+0002:00002118  int (near * near __EFG_cnvd2f)( double near *, float near * )
+0002:0000211c  void (near * near __EFG_LDcvt)( __6ks9tmlong_double near *, cvt_info near *, char near * )
+0002:00002120  char near * (near * near __EFG_fcvt)( double, int, int near *, int near * )
+0002:00002124  void (near * near __EFG__FDLD)( double near *, __6ks9tmlong_double near * )
+Module: C:\WATCOM/lib386\math387r.lib(cnvs2d)
+0001:00015b84  __cnvs2d_
+Module: C:\WATCOM/lib386\math387r.lib(cnvd2f)
+0001:00015b92  __cnvd2f_
+Module: C:\WATCOM/lib386\math387r.lib(ldcvt)
+0001:00015ce4  _LDScale10x_
+0001:000162d5  __LDcvt_
+Module: C:\WATCOM/lib386\math387r.lib(_i_fcvt_)
+0001:00016724  _fcvt_
+Module: C:\WATCOM/lib386\math387r.lib(cnvd2ld)
+0001:00016729  __cnvd2ld_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dosinite)
+0001:0001672e  __sys_init_387_emulator
+0001:0001685e  __sys_fini_387_emulator
+Module: C:\WATCOM/lib386/dos\clib3r.lib(chk8087)
+0001:00016930* _fpreset_
+0001:00016950+ __init_8087_
+0001:00016990+ __default_sigfpe_handler_
+0001:000169b0  __chk8087_
+Module: bcv03r36.lib(D:\WGT5\CODE\WLINE.C)
+0001:00016a20  wline_
+0001:00016cf0* whline_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(iob)
+0002:00002234  ___iob
+0002:0000243c  __fmode
+0002:00034b34  ___OpenStreams
+0002:00034b38  ___ClosedStreams
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fprtf)
+0001:00016d70  __fprtf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(initrtns)
+0001:00016e20  __InitRtns
+0001:00016e70  __FiniRtns
+Module: C:\WATCOM/lib386/dos\clib3r.lib(int386xa)
+0001:00016ec8  __int386x_
+0001:00016f24* _DoINTR_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(__stos)
+0001:000172b0  __STOSB
+0001:000172e7* __STOSD
+Module: C:\WATCOM/lib386/dos\clib3r.lib(nmemneed)
+0001:00017360  __nmemneed_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mem)
+0001:00017370  __MemAllocator
+0001:00017420  __MemFree
+Module: C:\WATCOM/lib386/dos\clib3r.lib(grownear)
+0001:000175e0+ __FreeDPMIBlocks_
+0001:00017650  __ReAllocDPMIBlock_
+0001:000177e0+ __LastFree_
+0001:00017a50  __ExpandDGROUP_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(toupper)
+0001:00017ba0  toupper_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(lseek)
+0001:00017bb0  lseek_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(flush)
+0001:00017be0  __flush_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(seterrno)
+0001:00017ccb  __set_errno_
+0001:00017cd7  __set_EDOM_
+0001:00017ce3  __set_ERANGE_
+0001:00017cef  __set_EINVAL_
+0001:00017d00  __set_doserrno_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(tell)
+0001:00017d10  tell_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(lseekdos)
+0001:00017d30  __lseek_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(qread)
+0001:00017d80  __qread_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(ioalloc)
+0001:00017db0  __ioalloc_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fgetc)
+0001:00017e50  __fill_buffer_
+0001:00017f20+ __filbuf_
+0001:00017f50  fgetc_
+Module: bcv03r36.lib(D:\WGT5\CODE\CMAIN386.C)
+0001:00017ff0  __CMain
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dosseg)
+0000:00001234  __DOSseg__
+Module: C:\WATCOM/lib386/dos\clib3r.lib(initargv)
+0001:00018050  __Init_Argv_
+0001:000180a0+ _getargv_
+0001:00018230  __Fini_Argv_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dosret)
+0001:00018240  _dosretax_
+0001:00018250* _dosret0_
+0001:00018260  __set_errno_dos_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(ftell)
+0001:000182e0  ftell_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(qwrit)
+0001:00018330  __qwrite_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(errno)
+0001:000183b0  __get_errno_ptr_
+0001:000183c0  __get_doserrno_ptr_
+0002:00034b44  _errno
+0002:00034b48+ __doserrno
+Module: C:\WATCOM/lib386/dos\clib3r.lib(chipvar)
+0002:0000246c  ___chipbug
+0002:0000246c  __chipbug
+Module: C:\WATCOM/lib386\math387r.lib(pow87e)
+0001:000183c8  __pow87_err_
+Module: C:\WATCOM/lib386\math387r.lib(exp387)
+0001:000184ba* exp_
+0001:00018450* __@DEXP1
+0001:00018458* IF@EXP
+0001:00018458* IF@DEXP
+0001:0001845a  __@DEXP
+Module: C:\WATCOM/lib386/dos\clib3r.lib(chipd32)
+0001:000185df  __fdiv_fpr
+0001:00018aa1* __fdiv_chk
+0001:00018ab4* __fdiv_m32
+0001:00018b01* __fdiv_m64
+0001:00018b4e* __fdiv_m32r
+0001:00018b9b* __fdiv_m64r
+Module: C:\WATCOM/lib386/dos\clib3r.lib(noefgfmt)
+0002:00002480  ___EFG_printf
+0002:00002484  ___EFG_scanf
+Module: C:\WATCOM/lib386\math387r.lib(efgfmt)
+0001:00018c02  _EFG_Format_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(xmsg)
+0001:00018d60* __exit_with_msg_
+0001:00018d70  __fatal_runtime_error_
+Module: C:\WATCOM/lib386\math387r.lib(strtod)
+0001:000192c8+ __Strtold_
+0001:00019432  strtod_
+Module: C:\WATCOM/lib386\math387r.lib(ldclass)
+0001:00019576  __LDClass_
+0001:000195c6* _FLClass_
+Module: C:\WATCOM/lib386\math387r.lib(efcvt)
+0001:00019606* ecvt_
+0001:0001963d  fcvt_
+Module: C:\WATCOM/lib386/dos\emu387.lib(emu387)
+0001:00019a3c  __int7_pl3
+0001:00019a60* __int7_X32VM
+0001:00019aac  __int7
+Module: C:\WATCOM/lib386/dos\clib3r.lib(hook387)
+0001:0001cbf0  __hook387
+0001:0001cca0  __unhook387
+Module: C:\WATCOM/lib386/dos\clib3r.lib(8087cw)
+0002:0000250c  __8087cw
+Module: C:\WATCOM/lib386/dos\clib3r.lib(save8087)
+0002:00002510  ___Save8087
+0002:00002514  ___Rest8087
+Module: C:\WATCOM/lib386/dos\clib3r.lib(init8087)
+0001:0001cce4  __x87id
+Module: C:\WATCOM/lib386/dos\clib3r.lib(grabfp87)
+0001:0001cd20  __GrabFP87_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(initfile)
+0001:0001cd90  __InitFiles_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(ioexit)
+0001:0001ce90* fcloseall_
+0001:0001cea0  __full_io_exit_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(prtf)
+0001:0001ceb0  __prtf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(sgdef086)
+0002:000029c0  __Start_XI
+0002:00002a26  __End_XI
+0002:00002a26  __Start_YI
+0002:00002a4a  __End_YI
+Module: C:\WATCOM/lib386/dos\clib3r.lib(heapen)
+0001:0001dd20* _heapenable_
+0002:00002518  ___heap_enabled
+Module: C:\WATCOM/lib386/dos\clib3r.lib(minreal)
+0002:00034bcc  ___minreal
+Module: C:\WATCOM/lib386/dos\clib3r.lib(amblksiz)
+0002:0000251c  __amblksiz
+Module: C:\WATCOM/lib386/dos\clib3r.lib(sbrk386)
+0001:0001dd30* sbrk_
+0001:0001de10  __brk_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(iomode)
+0001:0001df30  __GetIOMode_
+0001:0001df50  __SetIOMode_nogrow_
+0002:00002520  ___NFiles
+0002:00002524  ___init_mode
+0002:00002574  ___io_mode
+Module: C:\WATCOM/lib386/dos\clib3r.lib(stiomode)
+0001:0001df70+ __grow_iomode_
+0001:0001e030+ __shrink_iomode_
+0001:0001e060  __SetIOMode_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fsync)
+0001:0001e0d0  fsync_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(chktty)
+0001:0001e0e0  __chktty_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(flushall)
+0001:0001e120  __flushall_
+0001:0001e160  flushall_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(gtche)
+0001:0001e170  getche_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(stack386)
+0001:0001e190  stackavail_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(cinit)
+0001:0001e1a0  __CommonInit_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(___argc)
+0002:00034bd4  ____Argc
+0002:00034bd8  ____Argv
+Module: C:\WATCOM/lib386/dos\clib3r.lib(histsplt)
+0002:00034bdc  ___historical_splitparms
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fflush)
+0001:0001e200  fflush_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(chipbug)
+0001:0001e210  __verify_pentium_fdiv_bug_
+Module: C:\WATCOM/lib386\math387r.lib(math2err)
+0001:0001e2d2  __math1err_
+0001:0001e2dc  __math2err_
+Module: C:\WATCOM/lib386\math387r.lib(math87e)
+0001:0001e3d3  __math87_err_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(enterdb)
+0001:0001e450  __EnterWVIDEO_
+0002:000025d4+ ___WD_Present
+Module: C:\WATCOM/lib386/dos\clib3r.lib(istable)
+0002:00001850  __IsTable
+Module: C:\WATCOM/lib386/dos\clib3r.lib(tolower)
+0001:0001e480  tolower_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(bufld386)
+0001:0001e490  __ZBuf2LD
+Module: C:\WATCOM/lib386\math387r.lib(inf_nan)
+0001:0001e533* ___f_infinity
+0001:0001e537* ___f_posqnan
+0001:0001e53b  ___d_infinity
+0001:0001e543  ___d_posqnan
+0001:0001e54b* ___ld_infinity
+0001:0001e553* ___ld_posqnan
+Module: C:\WATCOM/lib386/dos\clib3r.lib(hugeval)
+0002:00001954  __HugeValue
+Module: C:\WATCOM/lib386/dos\clib3r.lib(cvtbuf)
+0001:0001e560  __CVTBuffer_
+Module: C:\WATCOM/lib386\math387r.lib(cvt)
+0001:0001e566  __cvt_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fpexcept)
+0001:0001e5f0  __FPE_exception_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fpe387)
+0002:000025d8  ___PMSeg
+0002:000025da  ___PMAddr
+0002:000025de  ___RMAddr
+0001:0001e5f8  __Init_FPE_handler_
+0001:0001e630  __Fini_FPE_handler_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dpmihost)
+0001:0001e670  __DPMI_hosted_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fpeinth)
+0001:0001e708  __FPEHandler_
+0001:0001e708  ___FPEHandlerStart_
+0001:0001e715  __FPE2Handler_
+0001:0001e817  ___FPEHandlerEnd_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fclose)
+0001:0001e950  __doclose_
+0001:0001e9d0  __shutdown_stream_
+0001:0001e9f0  fclose_
+0002:00034c08+ ___RmTmpFileFn
+Module: C:\WATCOM/lib386/dos\clib3r.lib(freefp)
+0001:0001ea20  __freefp_
+0001:0001ea60  __purgefp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(wctomb)
+0001:0001ea90  wctomb_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strupr)
+0001:0001eac0  strupr_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(lltoa)
+0001:0001eae0  ulltoa_
+0001:0001eb50* lltoa_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbisdbcs)
+0002:00034c0c  ___IsDBCS
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbislead)
+0001:0001eb80* _ismbblead_
+0002:00034c10  ___MBCSIsTable
+Module: C:\WATCOM/lib386/dos\clib3r.lib(nrealloc)
+0001:0001eba0  realloc_
+0001:0001ebb0+ _nrealloc_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(iomodtty)
+0001:0001ec50  __ChkTTYIOMode_
+0001:0001eca0* __IOMode_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dosfile)
+0001:0001ecb4* _dos_close_
+0001:0001ecc3  _dos_commit_
+0001:0001ecd3* _dos_open_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(isatt)
+0001:0001ecf0  isatty_
+Module: C:\WATCOM/lib386\math387r.lib(_matherr)
+0001:0001edb4* _set_matherr_
+0001:0001edba+ __rterrmsg_
+0001:0001ee02  _matherr_
+0002:00002804+ __RWD_matherr
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fpephar)
+0001:0001ee34  __Phar_hook_init_
+0001:0001eefa  __Phar_hook_fini_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fpedos4g)
+0001:0001ef28  __DOS4G_hook_init_
+0001:0001ef56  __DOS4G_hook_fini_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(_clse)
+0001:0001ef70  __close_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbinit)
+0001:0001efef  __mbinit_
+0001:0001f0c0+ dos_get_dbcs_lead_table_
+0001:0001f1b4+ dos_get_code_page_
+0002:00002808  ___MBCodePage
+Module: C:\WATCOM/lib386/dos\clib3r.lib(nmsize)
+0001:0001f350* _msize_
+0001:0001f360  _nmsize_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(nexpand)
+0001:0001f370* _expand_
+0001:0001f380+ __HeapManager_expand_
+0001:0001f530  _nexpand_
+Module: C:\WATCOM/lib386\math387r.lib(__mtherr)
+0001:0001f5b0  __matherr
+Module: C:\WATCOM/lib386/dos\clib3r.lib(iobaddr)
+0001:0001f5c0  __get_std_stream_
+0001:0001f5e0* __get_std_file_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fputs)
+0001:0001f5f0  fputs_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fpeint)
+0002:0000280c  ___FPE_int
+0002:0000280d  ___IRQ_num
+0002:0000280e+ ___IRQ_int
+0002:0000280f  ___MST_pic
+0002:00002810+ ___SLV_pic
+Module: C:\WATCOM/lib386/dos\clib3r.lib(intdx386)
+0001:0001f6d0  intdosx_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(inirmsel)
+0002:00034d14  __ExtenderRealModeSelector
+Module: C:\WATCOM/lib386\math387r.lib(matherr)
+0001:0001f843  matherr_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(nonibm)
+0001:0001f850+ __is_nonIBM_
+0002:00002814  ___NonIBM
+Module: C:\WATCOM/lib386/dos\clib3r.lib(stk)
+0001:0001f8c7* __STK
+0001:0001f8b4  __CHK
+0001:0001f8c4  __GRO
+0001:0001f8e5* __STKOVERFLOW_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dosdisk)
+0001:0001f8f4  _dos_getdiskfree_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fopen)
+0001:0001f940+ __open_flags_
+0001:0001fb40+ _fsopen_
+0001:0001fb90  fopen_
+0001:0001fc10* freopen_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fprintf)
+0001:0001fc70  fprintf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strlen)
+0001:0001fca0  strlen_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(sprintf)
+0001:0001fcc0  sprintf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strcpy)
+0001:0001fcf0  strcpy_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(_strcmp)
+0001:0001fd20  strcmp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(itoa)
+0001:0001fe60+ utoa_
+0001:0001feb0  itoa_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strcat)
+0001:0001fee0  strcat_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fscanf)
+0001:0001ff90+ vfscanf_
+0001:0001ffe0  fscanf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strstr)
+0001:00020010  strstr_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(atoi)
+0001:000200e0  atoi_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(atol)
+0001:00020130  atol_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(sscanf)
+0001:000201c0+ vsscanf_
+0001:000201f0  sscanf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(system)
+0001:00020220  system_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(int386)
+0001:000202a0  int386_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mktime)
+0001:000202c0  mktime_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(comtflag)
+0001:00020350* __set_commode_
+0002:0000282c  __commode
+Module: C:\WATCOM/lib386/dos\clib3r.lib(open)
+0001:000205e0* open_
+0001:00020600  sopen_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(allocfp)
+0001:00020630  __allocfp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(vsprintf)
+0001:00020710  vsprintf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(ungetc)
+0001:00020730  ungetc_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(scnf)
+0001:00021500  __scnf_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(getenv)
+0001:00021760  getenv_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(_slashc)
+0001:000217f0  __Slash_C_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(splp)
+0001:00021820  spawnlp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(segread)
+0001:00021840  segread_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(locmktim)
+0001:00021870  __local_mktime_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(gmtime)
+0001:00021a30  __brktime_
+0001:00021b30+ _gmtime_
+0001:00021b50* gmtime_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(tzset)
+0002:00002830  ___start_dst
+0002:00002854  ___end_dst
+0002:0000297c* _tzname
+0002:00002984  _timezone
+0002:00002988  _daylight
+0002:0000298c  ___dst_adjust
+0001:00021b60* __DontCacheOSTZ_
+0001:00021b70* __CacheOSTZ_
+0001:00021dd0+ __parse_tz_
+0001:00021f10  tzset_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(timeutil)
+0001:00022080  __isindst_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(umaskval)
+0002:00002994  ___umaskval
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbtowc)
+0001:000223b0  mbtowc_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(fdfs386)
+0001:0002246c  __FDFS
+Module: C:\WATCOM/lib386/dos\clib3r.lib(i8m)
+0001:000224b8* __I8M
+0001:000224b8  __U8M
+Module: C:\WATCOM/lib386/dos\clib3r.lib(environ)
+0002:00034d3c  ___env_mask
+0002:00034d40  _environ
+0002:00034d44* __wenviron
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbterm)
+0001:000224e0  _mbterm_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbsnextc)
+0001:00022520  _mbsnextc_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbcupper)
+0001:00022560  _mbctoupper_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbsinc)
+0001:00022580  _mbsinc_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(spvp)
+0001:000225b0  spawnvp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(leapyear)
+0001:000225c0  __leapyear_
+0002:000014cc  ___diyr
+0002:000014e6  ___dilyr
+Module: C:\WATCOM/lib386/dos\clib3r.lib(setenvp)
+0001:00022600  __setenvp_
+0001:000226e0  __freeenvp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbdtoupp)
+0001:00022730  _mbdtoupper_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(spvpe)
+0001:00022742  spawnvpe_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(clearenv)
+0001:00022890  clearenv_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(spve)
+0001:00022972  spawnve_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(strchr)
+0001:00022c90  strchr_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(memcpy)
+0001:00022cb0  memcpy_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(cenvarg)
+0001:00022ce4  __cenvarg_
+0001:00022e19  __ccmdline_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(dospawn)
+0001:00022e68  __dospawn
+Module: C:\WATCOM/lib386/dos\clib3r.lib(split2)
+0001:00022f90  _splitpath2_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(makepath)
+0001:00023100  _makepath_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(stricmp)
+0001:000232b0  stricmp_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(spl)
+0001:000232f0  spawnl_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbsnccnt)
+0001:00023310  _mbsnccnt_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbsncpy)
+0001:00023340  _mbsncpy_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbsnbcnt)
+0001:00023360  _mbsnbcnt_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbconv)
+0001:000233d0  _mbvtop_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbclen)
+0001:000233f0  _mbclen_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbsdec)
+0001:00023420  _mbsdec_
+Module: C:\WATCOM/lib386/dos\clib3r.lib(mbsnbcpy)
+0001:000234a0  _mbsnbcpy_
+
+
+                        +----------------------+
+                        |   Imported Symbols   |
+                        +----------------------+
+
+Symbol                              Module
+======                              ======
+
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+
+bcv03r36.lib
+C:\WATCOM/lib386\math387r.lib
+C:\WATCOM/lib386/dos\emu387.lib
+C:\WATCOM/lib386/dos\clib3r.lib
+C:\WATCOM/lib386\plbx3r.lib
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  00010000 (65536.)
+Memory size:  00068250 (426576.)
+Entry point address: 0001:000153bc
+Link time: 00:00.62

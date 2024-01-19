@@ -1,0 +1,4 @@
+LOGICA.CLP(26): Error! E029: col(32) symbol 'auxDisparaTemporizador' has not been declared
+LOGICA.CLP(26): Note! N393: col(32) included from CODBASE.CPP(44)
+LOGICA.CLP(29): Error! E029: col(33) symbol 'dsp_temporizadorLampada' has not been declared
+LOGICA.CLP(31): Error! E029: col(32) symbol 'fim_temporizadorLampada' has not been declared

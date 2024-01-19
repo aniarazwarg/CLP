@@ -1,0 +1,19 @@
+61,7,int,retIntrusao,0,99999,1,5,2,1
+49,7,int,retPreenchimento,0,99999,1,5,2,1
+61,8,int,durIntrusao,0,99999,1,5,2,1
+48,8,int,durPreenchimento,0,999999,1,6,3,1
+34,8,int,durRecalque,0,999999,1,6,3,1
+21,8,int,durResfriamento,0,99999,1,6,3,1
+53,11,bool,desabilitaInjecao,1,1,n,s
+63,9,int,vazaoIntrusao,0,100,1,3,0,1
+51,9,int,vazaoPreenchimento,0,100,1,3,0,1
+37,9,int,vazaoRecalque,0,100,1,3,0,1
+61,23,int,retDosagem,0,99999,1,5,2,1
+63,24,int,vazaoDosagem,0,100,1,3,0,1
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+30,28,message,sinopticoAuto,0,27,17,12,15,                 ,Esperando START  ,Recua Extrator   ,Recua Unid.Inj.  ,Finaliza Dosagem ,Finaliza Desc. ,Recua Unid.Inj.  ,Fechament.molde,Av.Unid.Injecao  ,Intrusao         ,Preenchimento    ,Recalque         ,Recuo Unid.Inj.  ,Descompr.inicial ,Dosagem          ,Descompr.final   ,Recuo Unid.Inj.  ,Resfriamento     ,Abertura molde   ,Ciclo extracao   ,Final ciclo      ,Reciclo          ,  Pre Avanco     ,
+42,15,int,tempoPreenchimento,0,99999,0,5,2,0
+53,10,bool,habPassagemParaRecalquePorTempo,1,1,n,s
+54,28,message,modoOperacao,0,4,12,12,2,   Manual   ,    Semi    ,    Auto       
+$$$
+316,ciclo

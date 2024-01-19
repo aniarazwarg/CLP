@@ -1,0 +1,17 @@
+18,13,int,cmpValorTecTouchBC,0,9999999999999999,1,17,0,0
+36,6,botaoTouch,bt7TecTouchBC,8,4,0
+46,6,botaoTouch,bt8TecTouchBC,8,4,0
+56,6,botaoTouch,bt9TecTouchBC,8,4,0
+56,11,botaoTouch,bt6TecTouchBC,8,4,0
+46,11,botaoTouch,bt5TecTouchBC,8,4,0
+36,11,botaoTouch,bt4TecTouchBC,8,4,0
+36,16,botaoTouch,bt1TecTouchBC,8,4,0
+46,16,botaoTouch,bt2TecTouchBC,8,4,0
+56,16,botaoTouch,bt3TecTouchBC,8,4,0
+46,21,botaoTouch,bt0TecTouchBC,8,4,0
+19,21,botaoTouch,btCancelaTecTouchBC,15,4,0
+56,21,botaoTouch,btEntraTecTouchBC,8,4,0
+36,21,botaoTouch,btSNTecTouchBC,8,4,0
+19,16,botaoTouch,btCorrigeTecTouchBC,15,4,0
+$$$
+

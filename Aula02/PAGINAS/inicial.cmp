@@ -1,0 +1,7 @@
+73,6,senha,senhaCorrente,1,6,0
+9,7,int,programa,0,9999,0,4,0,0
+20,7,int,versao,0,99,0,2,0,0
+30,7,int,revisao,0,99,0,2,0,0
+72,28,message,alarmeAtivo,1,2,6,12,8,      ,alarme
+$$$
+315,alarmes

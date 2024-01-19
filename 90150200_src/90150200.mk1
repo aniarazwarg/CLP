@@ -1,0 +1,20 @@
+!define BLANK ""
+C:\Users\branqs\Desktop\90150200_src\CODBASE.obj : C:\Users\branqs\Desktop\9&
+0150200_src\CODBASE.CPP .AUTODEPEND
+ @C:
+ cd C:\Users\branqs\Desktop\90150200_src
+ *wpp386 CODBASE.CPP -i=C:\WATCOM\h -w4 -e25 -zq -od -d2 -6r -bt=dos -mf -xs&
+ -xr
+
+C:\Users\branqs\Desktop\90150200_src\90150200.exe : C:\Users\branqs\Desktop\&
+90150200_src\DECLARA.CLP C:\Users\branqs\Desktop\90150200_src\ENTRADA.CLP C:&
+\Users\branqs\Desktop\90150200_src\LOGICA.CLP C:\Users\branqs\Desktop\901502&
+00_src\SAIDA.CLP C:\Users\branqs\Desktop\90150200_src\CODBASE.obj C:\Users\b&
+ranqs\Desktop\90150200_src\bcv03r28.lib .AUTODEPEND
+ @C:
+ cd C:\Users\branqs\Desktop\90150200_src
+ @%write 90150200.lk1 FIL CODBASE.obj
+ @%append 90150200.lk1 LIBR bcv03r28.lib
+ *wlink name 90150200 d all SYS causeway op m op maxe=25 op q op symf @90150&
+200.lk1
+

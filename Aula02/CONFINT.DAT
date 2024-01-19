@@ -1,0 +1,14 @@
+habilitaBC8E00=1
+habilitaBC8S00=1
+programa=9000
+versao=2
+revisao=0
+aquecimentoLigado=0
+coldStart=9000
+refAtrasoSPI=4
+senhaProtecaoNivel1=0
+senhaProtecaoNivel2=0
+senhaProtecaoNivel3=0
+ultimaReceitaLida=0
+ultimoDiaDaSemanaLogEventos=5
+<EOF>
